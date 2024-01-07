@@ -3,69 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/TextPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Mathis Bescond</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Portfolio</title>
 </head>
 
 <body>
-    <script>AOS.init();</script>
-    <nav>
-        <span>Mathis Bescond</span>
-    </nav>
-    <section id="presentation">
-        <p id="text">
-            Je suis étudiant en informatique de 21
-            ans ayant le permis B.
-            Passionné par le développement web.
-            Je suis calme, rigoureux et autonome.
-        </p>
-    </section>
-    <section id="exp">
-        <h1>Expériences</h1>
-        <div id="perso">
-            <a href="https://mathis-bescond.netlify.app/"><img src="happy.png" data-aos="fade-right"></a>
-            <p data-aos="fade-left">Messagerie instantanée utilisant socket.io, nodejs, indexdDB, html, css, js, service worker, pwa.
-                Les messages ne sont reçus que lorsque vous êtes connectés donc pas enregistré en backend, mais seulement en frontend avec indexedDB.</p>
-        </div>
-        <div id="pro">
-            <p data-aos="fade-right">Dans le cadre du développement de l’activité AviFit, le club souhaite se doter d’un outil permettant aux licenciés de se challenger. L’idée est de pouvoir motiver les licenciés grâce un système de suivi de performance. Le besoin est une application mobile que les utilisateurs renseignent à la fin de chaque séance et qui leur permet d’avoir un suivi de performance, comparaison à d’autre utilisateur et réussite de challenge. </p>
-            <img src="unknown.png" data-aos="fade-left">
-        </div>
-        <a href="https://www.linkedin.com/in/mathis-bescond-2085081b8/" class="voirplus">voir plus</a>
-    </section>
-    <section id="competence">
-        <h1>Compétences</h1>
-        <div>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-sass"></i>
-            <i class="fa-brands fa-bootstrap"></i>
-            <i class="fa-brands fa-js"></i>
-            <i class="fa-brands fa-php"></i>
-            <i class="fa-brands fa-node-js"></i>
-            <i class="fa-brands fa-vuejs"></i>
-            <i class="fa-brands fa-angular"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-java"></i>
-            <i class="fa-brands fa-python"></i>
-        </div>
-        <a href="https://www.linkedin.com/in/mathis-bescond-2085081b8/details/skills/" class="voirplus">voir plus</a>
-    </section>
-    <section id="hobby">
+    <div m-for="users">
+        <h1>{{prenom}}</h1>
+        <h2>{{nom}}</h2>
+        <h3>{{age}}</h3>
+    </div>
 
-    </section>
-    <footer id="contact">
-
-    </footer>
-    <script src="main.js"></script>
+    <div m-for="skills">
+        <h1>{{nom}}</h1>
+        <h2>{{niveau}}</h2>
+    </div>
 </body>
 
 </html>
