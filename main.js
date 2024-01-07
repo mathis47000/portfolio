@@ -1,4 +1,4 @@
-async function fetchDataAndRender() {
+async function mFor() {
     const allElements = document.querySelectorAll('*');
 
     await Promise.all(Array.from(allElements).map(async (element) => {
@@ -16,7 +16,7 @@ async function fetchDataAndRender() {
             for (let j = 0; j < json[value].length; j++) {
                 let clonedElement = element.cloneNode(true);
                 for (let i = 0; i < attribute.length; i++) {
-                    clonedElement.innerHTML = clonedElement.innerHTML.replace(attribute[i], json[value][j][attributeName[i]]);
+                    clonedElement.innerHTML = clonedElement.innerHTML.replaceAll(attribute[i], json[value][j][attributeName[i]]);
                 }
                 modifiedHtml += clonedElement.innerHTML;
             }
@@ -28,18 +28,28 @@ async function fetchDataAndRender() {
     }));
 }
 
-function pageDetails() {
-    const allElements = document.querySelectorAll('*');
-    const pageDetails = {};
-
-    Array.from(allElements).map((element) => {
-        if (element.hasAttribute('m-page')) {
-            const value = element.getAttribute('m-page');
-            pageDetails[value] = element.innerHTML;
-        }
-    });
-
-    return pageDetails;
+function closeModal() {
+    const modal = document.querySelector('.modal');
+    modal.style.display = "none";
 }
 
-fetchDataAndRender();
+async function modal(index) {
+
+
+    const response = await fetch('detail.json');
+    const json = await response.json();
+    // add json value in class modal
+
+    const modal = document.querySelector('.modal');
+    modal.innerHTML = `
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>${json["details"][index].title}</h2>
+        <p>${json["details"][index].content}</p>
+    </div>
+    `;
+    modal.style.display = "block";
+
+}
+
+mFor();

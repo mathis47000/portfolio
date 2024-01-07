@@ -10,13 +10,13 @@
 </head>
 
 <body>
+    <div class="modal">hey</div>
     <div m-for="users">
-        <h1>{{prenom}}</h1>
+        <h1 onclick="modal(0)">{{prenom}}</h1>
         <h2>{{nom}}</h2>
         <h3>{{age}}</h3>
     </div>
-
-    <div m-for="skills">
+    <div m-for="skills" class="skills">
         <h1>{{nom}}</h1>
         <h2>{{niveau}}</h2>
     </div>
