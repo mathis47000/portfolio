@@ -1,61 +1,61 @@
-// onload function show content
 window.onload = () => {
-    // query all elements with m-for attribute
-    const allElements = document.querySelectorAll('[m-for]');
-    // fetch data from data.json
+    const elementsWithMFor = document.querySelectorAll('[m-for]');
     fetch('data/data.json')
         .then(response => response.json())
         .then(data => {
-            Promise.all(Array.from(allElements).map(element => {
-                // get the value of m-for attribute
-                const value = element.getAttribute('m-for');
+            mFor(data, elementsWithMFor);
+        })
+        .catch(err => console.error(err));
 
-                // TODO : chain the closest function to get the parent element with m-for attribute
-                console.log(element.closest('[m-for]'));
+    function mFor(data, elementsWithMFor) {
+        // let to avoid re-rendering of elements with m-for
+        let elementIgnore = elementsWithMFor;
+        Promise.all(Array.from(elementsWithMFor).map(element => {
+            const mForValue = element.getAttribute('m-for');
+            let elementIgnore = element;
+            const attributeMatches = element.innerText.match(/{{([^}]*)}}/g) || [];
+            const attributeNames = attributeMatches.map(attribute => attribute.replace(/{{|}}/g, ''));
+            // if element has m-for child elements then mFor() is called recursively
+            const childElementsWithMFor = element.querySelectorAll('[m-for]');
+            if (childElementsWithMFor.length > 0) {
+                mFor(data[mForValue], childElementsWithMFor);
 
-                // get the attribute
-                const attribute = element.innerText.match(/{{([^}]*)}}/g);
-                const attributeName = attribute.map(a => a.replace(/{{|}}/g, ''));
-                // build modified html
-                let modifiedHtml = '';
-                for (let j = 0; j < data[value].length; j++) {
-                    let clonedElement = element.cloneNode(true);
-                    for (let i = 0; i < attribute.length; i++) {
-                        if (attribute[i].includes('.')) {
-                            let attributeChain = data[value][j];
-                            attributeName[i].split('.').forEach(element => {
-                                if (element.includes('[')) {
-                                    let index = element.match(/\d+/);
-                                    element = element.replace(/\[\d+\]/, '');
-                                    attributeChain = attributeChain[element][index];
-                                } else {
-                                    attributeChain = attributeChain[element];
-                                }
-                            });
-                            clonedElement.innerHTML = clonedElement.innerHTML.replaceAll(attribute[i], attributeChain);
-                        } else {
-                            if (attribute[i].includes('[')) {
-                                let index = attributeName[i].match(/\d+/);
-                                attributeName[i] = attributeName[i].replace(/\[\d+\]/, '');
-                                clonedElement.innerHTML = clonedElement.innerHTML.replaceAll(attribute[i], data[value][j][attributeName[i]][index]);
-                            } else {
-                                clonedElement.innerHTML = clonedElement.innerHTML.replaceAll(attribute[i], data[value][j][attributeName[i]]);
-                            }
-                        }
-                    }
-                    modifiedHtml += clonedElement.innerHTML;
-                }
-                // set the modified html
-                element.innerHTML = modifiedHtml;
-            })).then(() => {
-                // remove all m-for attributes
-                Array.from(allElements).map(e => e.removeAttribute('m-for'));
-                document.querySelector('body').style.opacity = 1;
-            });
+            }
 
-        }).catch(err => console.error(err));
+            let modifiedHtml = '';
+            const dataLoop = data[mForValue] ? data[mForValue] : data;
+            console.log(dataLoop, mForValue, data);
+            for (let j = 0; j < dataLoop.length; j++) {
+                const clonedElement = element.cloneNode(true);
+                attributeMatches.forEach((attribute, index) => {
+                    const attributeName = attributeNames[index];
+                    const attributeValue = resolveNestedProperty(dataLoop[j], attributeName);
+                    clonedElement.innerHTML = clonedElement.innerHTML.replaceAll(attribute, attributeValue);
+                });
+                modifiedHtml += clonedElement.innerHTML;
+            }
+            element.innerHTML = modifiedHtml;
+        })).then(() => {
+            elementsWithMFor.forEach(e => e.removeAttribute('m-for'));
+            document.querySelector('body').style.opacity = 1;
+        });
+    }
 
-}
+    function resolveNestedProperty(obj, path) {
+        const pathParts = path.split('.');
+        let result = obj;
+        for (const part of pathParts) {
+            if (part.includes('[')) {
+                const [key, index] = part.split(/\[|\]/).filter(Boolean);
+                result = result[key][index];
+            } else {
+                result = result[part];
+            }
+        }
+        return result;
+    }
+};
+
 
 function closeModal() {
     const modal = document.querySelector('.modal');

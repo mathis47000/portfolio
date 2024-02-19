@@ -18,7 +18,7 @@
 body {
     background-color: var(--primary-color);
     opacity: 0;
-    transition: all linear 2s;
+    transition: all linear 1s;
 }
 
 /* scroll bar */
@@ -72,7 +72,8 @@ a:hover {
 
 header {
     display: flex;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: max-content;
     justify-content: space-around;

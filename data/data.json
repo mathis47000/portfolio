@@ -16,8 +16,12 @@
     "test": [
         {
             "prenom": [
-                "Gabin",
-                "Jean"
+                {
+                    "nom": "Gabin"
+                },
+                {
+                    "nom": "Jean"
+                }
             ]
         }
     ],
