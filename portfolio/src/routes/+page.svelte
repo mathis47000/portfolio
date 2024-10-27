@@ -1,3 +1,13 @@
+<script>
+    import { Alert } from "flowbite-svelte";
+</script>
+
+<div class="p-8">
+    <Alert>
+        <span class="font-medium">Info alert!</span>
+        Change a few things up and try submitting again.
+    </Alert>
+</div>
 <main class="font-sans bg-white min-h-screen">
     <!-- En-tête -->
     <header class="bg-blue-600 text-white p-6 text-center shadow-md">
