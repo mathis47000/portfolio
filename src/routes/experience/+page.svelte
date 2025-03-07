@@ -213,16 +213,6 @@
               </p>
 
               <p class="text-sm">{exp.details?.description}</p>
-              {#if exp.details?.technologies}
-                <div class="mt-2 text-sm text-blue-600">
-                  {#each exp.details?.technologies as tech}
-                    <span
-                      class="px-2 py-1 bg-blue-100 dark:bg-blue-700 rounded text-blue-800 dark:text-white"
-                      >{tech}</span
-                    >
-                  {/each}
-                </div>
-              {/if}
             </div>
           </div>
         </li>
