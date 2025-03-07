@@ -158,7 +158,7 @@
 <h1 class="text-3xl font-bold text-center mb-8">Mon Parcours</h1>
 
 <!-- Double Timeline -->
-<div class="grid grid-cols-2 gap-6 max-w-5xl mx-auto">
+<div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto sm:grid-cols-1">
   <!-- afficher les années juste à côté de la timeline qui ne prend 1-->
   <!-- Timeline Expériences Professionnelles -->
   <div>
