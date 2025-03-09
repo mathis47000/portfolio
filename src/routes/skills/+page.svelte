@@ -1,67 +1,60 @@
 <script>
   const technicalSkills = [
     {
-      name: "Svelte",
-      description: "Développement d'interfaces modernes avec Svelte.",
-      link: "/competences/svelte",
+      name: "Flutter",
+      description: "Développement d'applications mobiles multiplateformes.",
+      link: "/skills/flutter",
     },
     {
-      name: "Node.js",
-      description: "Back-end performant avec JavaScript/TypeScript.",
-      link: "/competences/nodejs",
+      name: "Java (Android et Maven)",
+      description:
+        "Développement d'applications Android et gestion de dépendances.",
+      link: "/skills/java",
     },
     {
       name: "Angular",
       description: "Framework structuré pour les applications web.",
-      link: "/competences/angular",
+      link: "/skills/angular",
     },
     {
-      name: "TypeScript",
-      description: "Typage strict et robustesse du code.",
-      link: "/competences/typescript",
+      name: "WebSockets",
+      description: "Communication bidirectionnelle en temps réel.",
+      link: "/skills/websocket",
     },
     {
-      name: "MongoDB",
-      description: "Base de données NoSQL flexible et scalable.",
-      link: "/competences/mongodb",
+      name: "Stockage local (IndexedDB, Local Storage, SQLite, SharedPreferences)",
+      description:
+        "Stockage de données côté client pour une utilisation hors ligne.",
+      link: "/skills/storage",
     },
     {
-      name: "Docker",
-      description: "Containerisation et déploiement d'applications.",
-      link: "/competences/docker",
+      name: "Api REST (Flask et Maven)",
+      description: "Création d'API REST pour les applications web et mobiles.",
+      link: "/skills/api-rest",
     },
   ];
 
   const softSkills = [
     {
-      name: "Esprit d'équipe",
-      description: "Collaboration efficace dans des projets agiles.",
-      link: "/competences/equipe",
+      name: "Travail en équipe",
+      description:
+        "Collaboration et communication avec les membres de l'équipe.",
+      link: "/skills/team",
     },
     {
-      name: "Adaptabilité",
-      description: "Capacité à s'adapter aux nouvelles technologies.",
-      link: "/competences/adaptabilite",
-    },
-    {
-      name: "Résolution de problèmes",
-      description: "Trouver des solutions optimisées aux défis techniques.",
-      link: "/competences/resolution-problemes",
-    },
-    {
-      name: "Autonomie",
-      description: "Gérer son travail et ses priorités efficacement.",
-      link: "/competences/autonomie",
+      name: "Autonomie et apprentissage",
+      description: "Gérer son temps et apprendre de manière autonome.",
+      link: "/skills/autonome",
     },
     {
       name: "Communication",
       description: "Explication claire des concepts techniques.",
-      link: "/competences/communication",
+      link: "/skills/com",
     },
     {
-      name: "Gestion du stress",
-      description: "Maîtriser la pression en environnement dynamique.",
-      link: "/competences/stress",
+      name: "Gestion de projet",
+      description: "Planification et suivi des tâches.",
+      link: "/skills/gestion",
     },
   ];
 </script>

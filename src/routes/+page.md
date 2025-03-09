@@ -2,6 +2,9 @@
 
 Actuellement étudiant et alternant dans la société CAPGEMINI en tant que développeur full stack, j'aime créer des projets innovants et à forte valeur ajoutée. Je m'efforce de développer mes compétences en utilisant des technologies adaptées aux besoins d'un projet.
 
+<a href="/projects" class="btn">Voir mes réalisations</a>
+<a href="/skills" class="btn">Voir mes compétences</a>
+
 
 ## Mes valeurs
 

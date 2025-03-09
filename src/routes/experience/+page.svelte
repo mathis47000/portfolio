@@ -21,7 +21,7 @@
         website: "https://www.capgemini.com/",
       },
       school: {
-        name: "Groupe AEN",
+        name: "ESIEA",
         logo: "https://prepeersstorage.blob.core.windows.net/academic/1_391_logo_075311da-d917-4ad9-8aa1-2cb7b16f56fd.png?sp=r&st=2025-01-30T23:00:00Z&se=2026-01-31T04:06:31Z&spr=https&sv=2022-11-02&sr=c&sig=Mm5p4fZa8%2F4%2BFA04dmK5p259BIm5Y9rzEDR8GPPJTWY%3D",
         website: "https://www.groupe-aen.com/",
       },
@@ -48,7 +48,7 @@
         website: "https://www.capgemini.com/",
       },
       school: {
-        name: "Groupe AEN",
+        name: "ESIEA",
         logo: "https://prepeersstorage.blob.core.windows.net/academic/1_391_logo_075311da-d917-4ad9-8aa1-2cb7b16f56fd.png?sp=r&st=2025-01-30T23:00:00Z&se=2026-01-31T04:06:31Z&spr=https&sv=2022-11-02&sr=c&sig=Mm5p4fZa8%2F4%2BFA04dmK5p259BIm5Y9rzEDR8GPPJTWY%3D",
         website: "https://www.groupe-aen.com/",
       },
@@ -102,7 +102,7 @@
       period: "Févr. 2022 - Juil. 2025",
       title: "Ingénierie Logicielle",
       school: {
-        name: "Groupe AEN",
+        name: "ESIEA",
         logo: "https://prepeersstorage.blob.core.windows.net/academic/1_391_logo_075311da-d917-4ad9-8aa1-2cb7b16f56fd.png?sp=r&st=2025-01-30T23:00:00Z&se=2026-01-31T04:06:31Z&spr=https&sv=2022-11-02&sr=c&sig=Mm5p4fZa8%2F4%2BFA04dmK5p259BIm5Y9rzEDR8GPPJTWY%3D",
         website: "https://www.groupe-aen.com/",
       },

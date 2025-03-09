@@ -11,19 +11,20 @@
       link: "/projects/infos-dom",
     },
     {
-      title: "Portfolio",
-      description: "Mon portfolio en Svelte et TailwindCSS.",
-      link: "/projects/portfolio",
+      title: "Miaou",
+      description: "Progressive Web App de messagerie instantanée.",
+      link: "/projects/miaou",
     },
     {
-      title: "Gestionnaire de tâches",
-      description: "Application de gestion de tâches en Angular et NestJS.",
-      link: "/projects/gestion-taches",
+      title: "Microbio",
+      description:
+        "Application de gestion de tâches pour une équipe en laboratoire.",
+      link: "/projects/microbio",
     },
     {
-      title: "Site vitrine",
-      description: "Site pour une agence d'architecture.",
-      link: "/projects/site-vitrine",
+      title: "Miaou (Flutter version)",
+      description: "Application de messagerie instantanée en Flutter.",
+      link: "/projects/flutter-miaou",
     },
   ];
 </script>
