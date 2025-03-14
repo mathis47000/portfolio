@@ -1,5 +1,5 @@
 <script>
-  import { Card, Modal, Timeline, TimelineItem } from "flowbite-svelte";
+  import { Button, Card, Modal, Timeline, TimelineItem } from "flowbite-svelte";
   import { onMount } from "svelte";
 
   let selectedExperience = null;
@@ -109,6 +109,17 @@
       details: {
         description: "Formation spécialisée en développement logiciel.",
       },
+      projects: [
+        {
+          title: "Microbio",
+          description:
+            "Application de gestion de tâches pour une équipe en laboratoire.",
+        },
+        {
+          title: "Androwing",
+          description: "Application mobile pour la gestion de clubs d'aviron.",
+        },
+      ],
     },
     {
       type: "education",
@@ -271,7 +282,16 @@
                 {exp.school.name}
               </p>
               <p class="text-sm">{exp.details?.description}</p>
+              {#if exp.projects}
+                <Button pill href="/projects/androwing" color="green"
+                  >Androwing</Button
+                >
+                <Button pill href="/projects/microbio" color="green"
+                  >Microbio</Button
+                >
+              {/if}
             </div>
+            <!-- if projects diplay -->
           </div>
         </li>
       {/each}

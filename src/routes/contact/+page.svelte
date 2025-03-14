@@ -21,12 +21,7 @@
     <p>📍 <span class="font-medium">Blagnac, France</span></p>
     <p>
       <a href="mailto:contact@monsite.com" class="text-blue-500 hover:underline"
-        >contact@monsite.com</a
-      >
-    </p>
-    <p>
-      <a href="tel:+33612345678" class="text-blue-500 hover:underline"
-        >+33 6 12 34 56 78</a
+        >mathisbescond@outlook.fr</a
       >
     </p>
   </div>
@@ -41,7 +36,7 @@
       <GithubSolid class="w-6 h-6" />
     </a>
     <a
-      href="https://linkedin.com/in/mathisbescond"
+      href="https://www.linkedin.com/in/mathis-bescond-2085081b8/"
       target="_blank"
       class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300 transition"
     >
