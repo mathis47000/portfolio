@@ -3,8 +3,6 @@
 ## Présentation et Définition du Projet
 **Flutter Miaou** est une application de messagerie instantanée que j’ai développée durant mon **semestre 7**, dans le cadre d’un cours dédié à **Flutter**. L’objectif principal de ce projet était de **découvrir et maîtriser le framework Flutter** en réalisant une version mobile simplifiée de l’application **Miaou**, initialement développée en **Progressive Web App (PWA)**. Cette version mobile se concentre uniquement sur une **room de chat unique**, permettant aux utilisateurs de communiquer en temps réel.
 
----
-
 ## Objectifs
 Le projet avait pour but d’atteindre plusieurs objectifs clés. Tout d’abord, il s’agissait de **se familiariser avec Flutter** et d’appliquer ses concepts fondamentaux au développement mobile cross-platform. Ensuite, il était nécessaire de **réutiliser et adapter le backend existant de Miaou**, basé sur **Node.js et socket.io**, afin qu’il fonctionne correctement avec l’application mobile. Une autre priorité était de **simplifier l’application** en ne conservant que l’essentiel, à savoir une **room de chat en temps réel**. Enfin, un des objectifs techniques était d’**implémenter un système de stockage local**, permettant de conserver l’historique des messages en fonction de la plateforme utilisée, qu’il s’agisse d’Android ou d’iOS.
 
@@ -16,8 +14,6 @@ Plusieurs défis majeurs ont émergé au cours du développement de cette applic
 
 ## Risques
 Ce projet comportait certains risques et difficultés techniques. Le principal défi technique concernait **l’implémentation correcte de socket.io dans Flutter**, notamment en raison d’un **manque d’expérience avec le pattern BLoC**, qui est souvent utilisé pour gérer l’état des applications Flutter de manière optimale. Un autre risque notable était **la contrainte de temps**, qui imposait de **simplifier certaines fonctionnalités** pour respecter le délai imparti d’une semaine et livrer un prototype fonctionnel.
-
----
 
 ## Étapes du Projet
 ### 1. Conception et Planification
@@ -41,12 +37,8 @@ En fin de projet, une **démonstration a été réalisée en classe**, durant la
 
 Les **tests effectués ont été concluants**, validant ainsi l’intégration des WebSockets et la gestion efficace du stockage local.
 
----
-
 ## Acteurs et Interactions
 Ce projet a été réalisé **de manière autonome**, dans le cadre du cours dédié à Flutter. Cependant, j’ai bénéficié des **retours du professeur**, ainsi que des tests effectués en **conditions réelles avec plusieurs utilisateurs**, ce qui m’a permis d’apporter des ajustements techniques et d’optimiser certains aspects du fonctionnement de l’application.
-
----
 
 ## Résultats
 ### Compétences Acquises
@@ -54,8 +46,6 @@ Grâce à ce projet, j’ai pu développer et renforcer plusieurs compétences t
 
 ### Impact
 L’application développée était **fonctionnelle en temps réel**, et permettait à plusieurs utilisateurs de communiquer simultanément. Ce projet a représenté une **première expérience concrète sur Flutter**, tout en mettant en évidence certains points d’amélioration, notamment sur l’implémentation avancée de **socket.io et du pattern BLoC**, qui pourront être approfondis dans de futurs projets.
-
----
 
 ## Mon Regard Critique
 ### Ma Valeur Ajoutée
@@ -67,17 +57,13 @@ Ce projet m’a permis d’**assimiler les bases de Flutter** et de comprendre s
 ---
 
 ## Principales Compétences Rattachées à cette Réalisation
-### Compétences Techniques
-- **Flutter** : Développement d’une application mobile cross-platform.
-- **Dart** : Langage utilisé pour le développement en Flutter.
-- **Socket.io** : Intégration des WebSockets pour assurer une messagerie en temps réel.
-- **Stockage local** : Gestion des données selon la plateforme (SharedPreferences, Local Storage).
-- **Node.js (Backend Miaou)** : Réutilisation et adaptation d’un backend existant pour la messagerie.
-- **GitHub** : Gestion du code source et versionnement.
+<script>
+  import { Button } from 'flowbite-svelte';
+</script>
 
-### Compétences Humaines
-- **Autonomie** : Réalisation complète du projet en une semaine.
-- **Capacité d’apprentissage** : Adaptation rapide à un nouveau framework et à de nouvelles technologies.
-- **Présentation technique** : Démonstration du projet devant la classe et le professeur.
-
-[Voir toutes mes réalisations](#)
+<Button pill href="/skills/flutter" color="alternative">Flutter</Button>
+<Button pill href="/skills/websocket" color="alternative">Websocket</Button>
+<Button pill href="/skills/storage" color="alternative">Stockage</Button>
+<Button pill href="/skills/api-rest" color="alternative">Api REST</Button>
+<Button pill href="/skills/com" color="alternative">Communication</Button>
+<Button pill href="/skills/autonome" color="alternative">Autonomie</Button>

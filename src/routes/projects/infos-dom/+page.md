@@ -3,8 +3,6 @@
 ## Présentation et Définition du Projet
 **Info’s Dom** est une application mobile développée en **Flutter** dans le cadre d’un projet étudiant, réalisé en collaboration avec une **entreprise d’architecture**. L’objectif principal de ce projet était de proposer une **solution numérique intuitive** permettant aux professionnels de l’accompagnement des **personnes âgées et en situation de handicap** d’accéder facilement aux informations essentielles sur le domicile des bénéficiaires. Grâce à cette application, les professionnels peuvent mieux organiser leur intervention et offrir une assistance plus adaptée au quotidien.
 
----
-
 ## Objectifs
 Le projet visait plusieurs objectifs clés afin de répondre aux besoins des professionnels de l’accompagnement. Tout d’abord, il était essentiel de **concevoir une application mobile fluide et intuitive**, permettant aux utilisateurs de **visualiser rapidement les logements** et d’accéder aux **informations essentielles sur les bénéficiaires**.
 
@@ -27,8 +25,6 @@ En plus des aspects fonctionnels, le projet nécessitait de **trouver une identi
 ## Risques
 Comme tout projet de développement, Info’s Dom présentait certains **risques techniques** et **contraintes spécifiques**. L’un des principaux défis résidait dans la **mise en place d’un système d’authentification sécurisé**, qui devait être suffisamment robuste pour protéger les données sensibles des bénéficiaires. Une autre limitation importante était liée à l’absence de backend, ce qui a restreint le projet au **développement du frontend uniquement**, rendant l’application **non fonctionnelle à 100 %** en l’état.
 
----
-
 ## Étapes du Projet
 ### 1. Conception et Planification
 La première étape du projet a consisté à **définir précisément les fonctionnalités essentielles de l’application**, en étroite collaboration avec la cliente. Cette phase de conception a permis d’identifier les besoins spécifiques des utilisateurs finaux et d’adapter l’ergonomie de l’application en conséquence.
@@ -46,12 +42,9 @@ Le développement de l’application s’est déroulé en plusieurs phases disti
 ### 3. Présentation du Projet
 À la fin du développement, le prototype de l’application a été présenté lors d’une **journée dédiée**, où un **stand a été installé** pour exposer les avancées du projet. Cette présentation a été l’occasion d’**échanger avec la cliente**, afin d’évaluer l’adéquation du prototype avec les **besoins réels du terrain**.
 
----
-
 ## Acteurs et Interactions
 Le projet a été réalisé en **collaboration directe avec une entreprise d’architecture**. La cliente a joué un rôle déterminant en fournissant des **retours réguliers**, ce qui a permis d’**ajuster les fonctionnalités** et d’optimiser l’ergonomie de l’application en fonction des besoins des professionnels de l’accompagnement.
 
----
 
 ## Résultats
 ### Compétences Acquises
@@ -60,7 +53,6 @@ Ce projet m’a permis de renforcer mes **compétences en développement mobile 
 ### Impact
 Bien que le projet n’ait pas été finalisé en raison de l’absence d’un backend, un **prototype fonctionnel du frontend** a été développé, permettant de naviguer entre les différentes sections. De plus, le **système de connexion sécurisé a été défini**, même s’il n’a pas pu être implémenté dans sa totalité. Ce projet a également contribué à **mieux comprendre les défis liés aux applications manipulant des données sensibles**.
 
----
 
 ## Mon Regard Critique
 ### Ma Valeur Ajoutée
@@ -72,17 +64,14 @@ Ce projet m’a permis de **comprendre l’importance de l’authentification et
 ---
 
 ## Principales Compétences Rattachées à cette Réalisation
-### Compétences Techniques
-- **Flutter** : Développement du frontend mobile.
-- **Dart** : Langage utilisé pour la programmation en Flutter.
-- **Modélisation des données** : Conception des structures permettant le stockage des informations des bénéficiaires.
-- **UX/UI** : Réflexion approfondie sur l’expérience utilisateur et la navigation intuitive.
-- **Git** : Gestion de version et suivi des modifications du projet.
 
-### Compétences Humaines
-- **Communication** : Échanges réguliers avec la cliente pour ajuster le projet en fonction des besoins réels.
-- **Gestion de Projet** : Organisation des tâches et suivi des étapes de développement.
-- **Travail en équipe** : Collaboration avec le groupe et coordination des avancées.
+<script>
+  import { Button } from 'flowbite-svelte';
+</script>
 
-[Voir toutes mes réalisations](#)
+<Button pill href="/skills/flutter" color="alternative">Flutter</Button>
+<Button pill href="/skills/team" color="alternative">Travail en équipe</Button>
+<Button pill href="/skills/com" color="alternative">Communication</Button>
+<Button pill href="/skills/gestion" color="alternative">Gestion de projet</Button>
+<Button pill href="/skills/autonome" color="alternative">Autonomie</Button>
 

@@ -1,30 +1,51 @@
 ## Présentation
 
-Actuellement étudiant et alternant dans la société CAPGEMINI en tant que développeur full stack, j'aime créer des projets innovants et à forte valeur ajoutée. Je m'efforce de développer mes compétences en utilisant des technologies adaptées aux besoins d'un projet.
-
-<a href="/projects" class="btn">Voir mes réalisations</a>
-<a href="/skills" class="btn">Voir mes compétences</a>
+Actuellement en alternance chez Capgemini en tant que développeur full stack, je suis passionné par ce que je réalise. J’utilise principalement des frameworks JavaScript ainsi que Java, et je m'efforce d’améliorer mes compétences à travers mes expériences professionnelles. Mon objectif est de rester dans un domaine technique, où je peux continuer à coder ou à la limite continuer à être dans la conception d'applications au sens  large.
 
 
 ## Mes valeurs
 
-L'intégrité est une valeur fondamentale pour moi, tant dans ma vie professionnelle que personnelle. Elle implique d'agir de manière honnête, éthique et responsable, même en l'absence de surveillance.
-Le respect est une valeur essentielle qui guide mes interactions avec les autres. Il s'agit de reconnaître la valeur intrinsèque de chaque individu, ainsi que de leurs idées et croyances, même si elles diffèrent des miennes.
+L’intégrité est une valeur qui me tient à cœur, aussi bien dans ma vie professionnelle que personnelle. Elle signifie agir avec honnêteté, même sans surveillance. Dans mon travail, cela se traduit par exemple, lorsque je suis en télétravail et qu’on ne me donne pas de tâches spécifiques, je ne reste pas à attendre sans rien faire. Je prends l’initiative de demander du travail pour continuer à travailler tout simplement.
+
+Le respect guide mes interactions avec les autres. Peu importe les idées ou croyances de mes interlocuteurs, j'évite tout jugement hâtif et cherche à comprendre avant la première impression. Cela me permet d’entretenir de bonnes relations aussi bien avec mes collègues qu’avec mes proches.
 
 
 ## Mon projet professionnel
 
-Au lycée, mon projet professionnel était plutôt vague, centré sur l'idée de devenir ingénieur sans spécialisation précise. Cependant, ma professeure de mathématiques avait remarqué des aptitudes dans le numérique que je ne soupçonnais pas et m'a encouragé à explorer davantage ce domaine.
-Avec le temps, cette suggestion a eu un impact significatif. J'ai commencé à m'intéresser de plus en plus à la programmation et au développement de logiciels. En découvrant ma passion pour ces domaines, j'ai ajusté mon projet professionnel pour me concentrer sur une carrière dans le numérique, visant à devenir développeur full stack.
+Au lycée, mon projet professionnel était encore flou : je savais que je voulais devenir ingénieur, mais sans spécialisation précise. C’est ma professeure de mathématiques qui m’a encouragé à explorer le domaine du numérique, voyant en moi des aptitudes que je ne soupçonnais pas. En approfondissant mes connaissances en programmation, j’ai rapidement réalisé que c’était ma voie. Aujourd’hui, je me spécialise dans le développement full stack.
 
 
 ## Mes qualités humaines
 
-L'empathie est cruciale pour comprendre et ressentir les émotions des autres, facilitant les relations interpersonnelles et la résolution de problèmes.
-La patience consiste à faire preuve de calme et de persévérance face aux obstacles, permettant de maintenir le contrôle et de prendre des décisions réfléchies.
+L’empathie est une qualité que je trouve importante dans mon travail. Elle me permet de comprendre mes collègues, de les aider lorsqu’ils ont besoin de moi et ainsi de créer une dynamique de collaboration bénéfique pour tout le monde. En retour, je sais aussi que cette entraide sera réciproque, ce qui renforce l’efficacité et la cohésion de l’équipe.
+
+La patience est une vertu précieuse, notamment en développement. Elle est indispensable lorsqu’il faut traquer un bug dans le code ou résoudre un problème complexe sans se décourager.
 
 
-## Mes centres d'intérêt
+## Mes centres d’intérêt
 
-J’aime beaucoup les jeux vidéo qui m’offrent une richesse d'expériences. Je suis particulièrement passionné par des jeux comme Elden Ring, Zelda, et Professeur Layton, qui stimulent à la fois mon esprit logique, mon imagination ainsi que ma résilience.
-Je fais aussi du roller au skatepark me procurant une sensation de liberté et d'adrénaline. C'est un moyen pour moi de repousser mes limites physiques et mentales tout en m'amusant.
+Les jeux vidéo occupent une place importante dans mon temps libre. Je suis particulièrement passionné par des titres comme *Elden Ring*, *Zelda* et *Professeur Layton*, qui stimulent ma logique, mon imagination et ma résilience. Chacun de ces jeux apporte un défi unique, la rigueur et l’apprentissage par l’échec dans *Elden Ring*, la créativité et la découverte dans *Zelda*, et la réflexion logique dans *Professeur Layton*.
+
+Je pratique également le roller au skatepark, une activité qui me procure une grande sensation de liberté et d’adrénaline. C’est un sport qui me pousse à repousser mes limites, tant physiques que mentales. La persévérance nécessaire pour réussir une figure après plusieurs échecs est une leçon que j’applique aussi dans mon travail, ne pas abandonner face aux difficultés et toujours chercher à s’améliorer.
+
+---
+
+<script>
+  import { Button } from 'flowbite-svelte';
+</script>
+
+<Button pill href="/skills/" color="blue">Réalisations</Button>
+<Button pill href="/project/" color="blue">Compétences</Button>
+
+## Tableau des Réalisations et Compétences
+
+| Réalisation      | Compétences Techniques | Compétences Non Techniques |
+|------------------|------------------------|----------------------------|
+| **Androwing**    | Java (Android et Maven), API REST (Flask et Maven), Stockage local, Angular | Communication, Gestion de projet, Travail en équipe |
+| **Microbio**     | Angular, Java (Android et Maven), WebSockets | Communication, Gestion de projet, Travail en équipe |
+| **Miaou**        | WebSockets, API REST (Flask et Maven), Stockage local | Autonomie et apprentissage, Communication |
+| **Flutter Miaou**| Flutter, WebSockets, API REST (Flask et Maven), Stockage local | Autonomie et apprentissage, Communication |
+| **Info’s Dom**   | Flutter | Autonomie et apprentissage, Communication, Gestion de projet, Travail en équipe |
+
+
+

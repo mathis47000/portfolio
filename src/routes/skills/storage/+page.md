@@ -12,27 +12,27 @@ Le **stockage local** désigne l'ensemble des technologies permettant de conserv
 
 - **SharedPreferences** : Un système de stockage clé-valeur spécifique à Android, idéal pour conserver des préférences utilisateur ou des configurations simples.
 
-### Mes Éléments de Preuve
+## Mes Éléments de Preuve
 
-**Projet Miaou**
+### Projet Miaou
 
 Dans le cadre du projet **Miaou**, une application de messagerie instantanée, j'ai implémenté **IndexedDB** pour conserver l'historique des messages localement. Cela garantissait aux utilisateurs un accès à leurs conversations même en mode hors ligne.
 
-*📌 Anecdote :* Lors du développement, un défi majeur était d'assurer la persistance des messages malgré les rafraîchissements de page ou les fermetures inattendues du navigateur. L'utilisation d'IndexedDB a permis de surmonter cette difficulté en offrant une solution de stockage fiable et performante.
+*Anecdote :* Lors du développement, un défi majeur était d'assurer la persistance des messages malgré les rafraîchissements de page ou les fermetures inattendues du navigateur. L'utilisation d'IndexedDB a permis de surmonter cette difficulté en offrant une solution de stockage fiable et performante.
 
-**Projet Androwing**
+### Projet Androwing
 
 Pour l'application **Androwing**, destinée à l'enregistrement des performances sportives des rameurs, j'ai utilisé **SQLite** pour stocker localement les données des utilisateurs sur les appareils Android. Cela permettait une consultation rapide et une analyse des performances sans nécessiter de connexion internet constante.
 
-*📌 Anecdote :* L'intégration de SQLite a posé des défis en termes de synchronisation des données entre l'application locale et le serveur central. J'ai mis en place des mécanismes de synchronisation pour assurer la cohérence des données, même en cas de connexions intermittentes.
+*Anecdote :* L'intégration de SQLite a posé des défis en termes de synchronisation des données entre l'application locale et le serveur central. J'ai mis en place des mécanismes de synchronisation pour assurer la cohérence des données, même en cas de connexions intermittentes.
 
-**Projet Flutter Miaou**
+### Projet Flutter Miaou
 
 Dans le projet **Flutter Miaou**, une adaptation mobile de l'application de messagerie, j'ai utilisé **SharedPreferences** pour stocker des paramètres utilisateur et des configurations spécifiques à l'application. Cela garantissait une expérience utilisateur cohérente et personnalisée sur différentes sessions.
 
-*📌 Anecdote :* L'un des défis rencontrés était de gérer efficacement les préférences utilisateur tout en assurant une compatibilité entre différentes versions de l'application. L'utilisation de SharedPreferences a facilité cette gestion en offrant une API simple et efficace pour le stockage de petites données.
+*Anecdote :* L'un des défis rencontrés était de gérer efficacement les préférences utilisateur tout en assurant une compatibilité entre différentes versions de l'application. L'utilisation de SharedPreferences a facilité cette gestion en offrant une API simple et efficace pour le stockage de petites données.
 
-### Mon Autocritique
+## Mon Autocritique
 
 - **Niveau de maîtrise :** Je possède une **expertise avancée** dans l'utilisation des différentes solutions de stockage local, tant sur les plateformes web que mobiles. Mon expérience couvre l'implémentation, l'optimisation et la sécurisation de ces solutions dans divers contextes applicatifs.
 
@@ -42,16 +42,18 @@ Dans le projet **Flutter Miaou**, une adaptation mobile de l'application de mess
 
 - **Recul et conseils :** Il est important de **choisir judicieusement** la solution de stockage en fonction des besoins spécifiques de l'application. Par exemple, pour des données structurées complexes, SQLite est recommandé, tandis que pour des préférences simples, SharedPreferences ou Local Storage peuvent suffire. De plus, il est essentiel de considérer les aspects de sécurité, notamment en évitant de stocker des informations sensibles dans des mécanismes non sécurisés comme le Local Storage.
 
-### Mon Évolution dans cette Compétence
+## Mon Évolution dans cette Compétence
 
 - **Projet futur :** Je prévois d'explorer l'intégration de solutions de stockage sécurisées et chiffrées pour des applications nécessitant une protection accrue des données utilisateur.
 
 - **Formation :** Je suis régulièrement des formations et des webinaires sur les nouvelles technologies de stockage et les meilleures pratiques en matière de sécurité des données.
-
+---
 ### Principales Réalisations Rattachées
 
-- **Miaou** – Implémentation d'IndexedDB pour le stockage hors ligne des messages.
+<script>
+  import { Button } from 'flowbite-svelte';
+</script>
 
-- **Androwing** – Utilisation de SQLite pour la gestion locale des performances sportives.
-
-- **Flutter Miaou** – Intégration de SharedPreferences pour la gestion des préférences utilisateur.
+<Button pill href="/projects/miaou" color="alternative">Miaou</Button>
+<Button pill href="/projects/androwing" color="alternative">Androwing</Button>
+<Button pill href="/projects/flutter-miaou" color="alternative">Flutter Miaou</Button>

@@ -3,8 +3,6 @@
 ## Présentation et Définition du Projet
 **Microbio** est une application web développée au cours du **semestre 3** à l’école **Intech (Esiea)** en collaboration avec le même groupe que le projet **Androwing**. Ce projet a été réalisé pour **Qsa Conseil**, une entreprise spécialisée dans les analyses biologiques, qui avait besoin d’un outil efficace pour **optimiser la gestion interne**. L’application permet un **suivi des tâches en temps réel** et propose une **fonctionnalité de chat en direct**, facilitant la communication entre les employés.
 
----
-
 ## Objectifs
 L’objectif principal du projet était de concevoir une **application web dynamique** permettant de suivre l’avancement des tâches en temps réel. Pour cela, il était nécessaire de :
 - Mettre en place une **WebSocket simple** pour la synchronisation des tâches, sans utiliser de frameworks comme **socket.io**.
@@ -22,8 +20,6 @@ Un autre défi était d’**utiliser efficacement les Subjects en Angular** pour
 Nous avons identifié plusieurs risques potentiels au cours du projet :
 - La **complexité technique** liée à l’implémentation des **WebSockets** et leur interaction entre le **frontend et le backend**.
 - Le **manque d’expérience initiale** avec **Angular Subjects**, ce qui pouvait engendrer des difficultés dans la gestion dynamique des flux de données.
-
----
 
 ## Étapes du Projet
 ### 1. Conception et Planification
@@ -45,12 +41,10 @@ Le développement s’est déroulé en plusieurs étapes clés :
 En fin de projet, nous avons participé à une **journée de présentation** lors de laquelle nous avons présenté **Microbio** sur un stand décoré, à l’image de ce que nous avions fait pour **Androwing**.
 Le projet a rencontré un franc succès et a obtenu la **première place** lors de l’évaluation finale.
 
----
 
 ## Acteurs et Interactions
 En tant que **Scrum Master**, j’ai été en charge de **coordonner les tâches** et d’**animer les daily meetings** pour assurer une bonne organisation de l’équipe. Nous avons également bénéficié d’**échanges réguliers avec Qsa Conseil**, qui nous a fourni des retours constructifs nous permettant d’adapter notre solution à leurs besoins réels.
 
----
 
 ## Résultats
 ### Compétences Acquises
@@ -59,7 +53,6 @@ Grâce à ce projet, j’ai pu **renforcer mes compétences en développement fu
 ### Impact
 L’application a été **très bien accueillie** lors des présentations et a démontré son **utilité pour l’entreprise cliente**. Ce projet nous a permis de mettre en pratique des concepts avancés en développement web et de mieux comprendre la **gestion de projet agile**.
 
----
 
 ## Mon Regard Critique
 ### Ma Valeur Ajoutée
@@ -69,19 +62,15 @@ Dans ce projet, j’ai joué un rôle clé en assurant la **coordination et l’
 Ce projet m’a permis de mieux appréhender les **WebSockets** et leur intégration dans une **application full stack**. J’ai également développé des **compétences avancées sur les Subjects Angular**, qui sont essentiels pour gérer les flux de données en temps réel dans une application moderne.
 
 ---
-
 ## Principales Compétences Rattachées à cette Réalisation
-### Compétences Techniques
-- **Angular** : Développement du frontend et gestion de l’interface utilisateur.
-- **Java (Maven)** : Développement backend et gestion de la logique applicative.
-- **WebSocket** : Mise en place de la communication en temps réel pour le suivi des tâches et le chat.
-- **Subjects Angular** : Gestion des flux de données dynamiques en temps réel.
-- **Git** : Utilisation d’un système de gestion de version pour assurer un développement collaboratif fluide.
 
-### Compétences Humaines
-- **Gestion de Projet (Scrum Master)** : Planification des tâches et animation des réunions quotidiennes.
-- **Communication** : Présentation du projet lors des événements et interaction avec l’entreprise cliente.
-- **Travail d’équipe** : Collaboration efficace avec les membres du groupe pour assurer la réussite du projet.
+<script>
+  import { Button } from 'flowbite-svelte';
+</script>
 
-[Voir toutes mes réalisations](#)
-
+<Button pill href="/skills/java" color="alternative">Java</Button>
+<Button pill href="/skills/angular" color="alternative">Angular</Button>
+<Button pill href="/skills/websocket" color="alternative">WebSocket</Button>
+<Button pill href="/skills/team" color="alternative">Travail en équipe</Button>
+<Button pill href="/skills/com" color="alternative">Communication</Button>
+<Button pill href="/skills/gestion" color="alternative">Gestion de projet</Button>
