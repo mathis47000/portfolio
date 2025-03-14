@@ -37,15 +37,6 @@ Je pratique également le roller au skatepark, une activité qui me procure une 
 <Button pill href="/skills/" color="blue">Réalisations</Button>
 <Button pill href="/projects/" color="blue">Compétences</Button>
 
-## Tableau des Réalisations et Compétences
-
-| Réalisation      | Compétences Techniques | Compétences Non Techniques |
-|------------------|------------------------|----------------------------|
-| **Androwing**    | Java (Android et Maven), API REST (Flask et Maven), Stockage local, Angular | Communication, Gestion de projet, Travail en équipe |
-| **Microbio**     | Angular, Java (Android et Maven), WebSockets | Communication, Gestion de projet, Travail en équipe |
-| **Miaou**        | WebSockets, API REST (Flask et Maven), Stockage local | Autonomie et apprentissage, Communication |
-| **Flutter Miaou**| Flutter, WebSockets, API REST (Flask et Maven), Stockage local | Autonomie et apprentissage, Communication |
-| **Info’s Dom**   | Flutter | Autonomie et apprentissage, Communication, Gestion de projet, Travail en équipe |
 
 
 
