@@ -35,7 +35,7 @@ Je pratique également le roller au skatepark, une activité qui me procure une 
 </script>
 
 <Button pill href="/skills/" color="blue">Réalisations</Button>
-<Button pill href="/project/" color="blue">Compétences</Button>
+<Button pill href="/projects/" color="blue">Compétences</Button>
 
 ## Tableau des Réalisations et Compétences
 
