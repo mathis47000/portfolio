@@ -9,6 +9,8 @@ Elle repose sur plusieurs aspects fondamentaux :
 - **L’utilisation de méthodologies agiles** comme **Scrum** ou **Kanban**, afin d’adapter la gestion du projet aux évolutions des besoins et aux contraintes.  
 - **L’anticipation des risques** et la capacité à gérer les imprévus pour maintenir le projet sur la bonne trajectoire.
 
+Dans ma pratique, j’utilise régulièrement Trello, GitHub Projects ou Jira pour suivre l’avancement. En fonction des projets mais en priorité JIra durant mon alternance.
+
 
 ## Mes Éléments de Preuve
 
@@ -16,39 +18,34 @@ Elle repose sur plusieurs aspects fondamentaux :
 
 Dans le projet **Androwing**, j’ai assuré la **coordination de l’équipe** pour organiser les tâches entre le **développement Android** et le **backend Flask**. Cette répartition a permis d’assurer une progression fluide du projet et d’optimiser la productivité de chacun.
 
-**Anecdote** : Pour structurer le travail de manière efficace, j’ai utilisé un **tableau Kanban**, permettant de suivre en temps réel l’état d’avancement des tâches. Cela a facilité la **gestion des priorités**, assuré une **répartition équilibrée du travail** et amélioré la **communication entre les membres de l’équipe**.
+Pour structurer le travail de manière efficace, j’ai utilisé un **Trello**, permettant de suivre en temps réel l’état d’avancement des tâches. Cela a facilité la **gestion des priorités**, assuré une **répartition équilibrée du travail** et amélioré la **communication entre les membres de l’équipe**.
+Tout les jours où nous pouvions travailler sur le projet, nous avons fait des réunions pour savoir comment répartir les tâches ainsi que ajouter des tâches ou simplement connaitre l’avancement des tâches déjà entamé, en utilisant Trello pour suivre le tout.
 
 
 ### Projet Microbio  
 
-Dans le cadre du projet **Microbio**, j’ai occupé le rôle de **Scrum Master**, ce qui impliquait la **gestion des daily meetings** et le **suivi des sprints** pour assurer un déroulement structuré du projet.
+Dans le cadre du projet **Microbio**, j’ai occupé le rôle de **Scrum Master**, ce qui impliquait la **gestion des réunions** et le **suivi des sprints** pour assurer un déroulement structuré du projet.
 
-**Anecdote** : L’un des défis majeurs de cette expérience a été **d’adapter les principes de la méthodologie Scrum à un contexte académique**, où les échéances étaient **fixes** et **non négociables**. J’ai appris à **adapter les sprints** en fonction des contraintes scolaires tout en veillant à ce que l’équipe avance de manière cohérente et efficace.
+L’un des défis majeurs de cette expérience a été de diriger l’organisation de l’équipe. J’ai appris à **adapter les sprints** en fonction des contraintes scolaires tout en veillant à ce que l’équipe avance de manière cohérente et efficace. De la même manière que sur le projet Androwing, le suivi se faisait à tout les créneaux mais cette fois ci, c’était moi qui animé les réunions.
 
 
 ### Projet Info’s Dom  
 
 Dans le projet **Info’s Dom**, j’ai organisé les **étapes du développement** en intégrant **les retours réguliers de la cliente** afin d’ajuster l’application aux attentes des utilisateurs finaux.
 
-**Anecdote** : La **difficulté principale** de ce projet était la nécessité d’**ajuster constamment l’application** en fonction des **évolutions des besoins de la cliente**. Cette expérience m’a appris **l’importance de la flexibilité** dans la gestion de projet et m’a permis d’acquérir des compétences en **gestion de changements et d’adaptabilité**.
+La **difficulté principale** de ce projet était la nécessité d’**ajuster constamment l’application** en fonction des **évolutions des besoins de la cliente**. Cette expérience m’a appris **l’importance de la flexibilité** dans la gestion de projet et m’a permis d’acquérir des compétences en **gestion de changements et d’adaptabilité**.
 
 
 ## Mon Autocritique
 
-**Niveau de maîtrise** : Je me situe à un **niveau intermédiaire-avancé** en gestion de projet, avec une bonne expérience en **planification agile**, en **coordination d’équipe** et en **suivi de l’avancement des tâches**.  
-
-**Marge de progression** : Je souhaite **approfondir ma gestion des risques et des imprévus**, notamment en mettant en place des **plans de contingence plus solides** pour anticiper les éventuels blocages.  
-
-**Importance de la compétence** : La gestion de projet est **essentielle** pour structurer un projet et **garantir son succès**. Une bonne organisation permet d’**éviter les retards**, d’**optimiser les ressources** et d’**assurer une bonne communication** entre les parties prenantes.  
-
-**Recul et conseils** : Un **projet bien structuré** repose avant tout sur une **communication efficace** et une **organisation claire des priorités**. Il est essentiel d’**impliquer l’équipe dès le début**, de bien définir les **objectifs**, et de **gérer les attentes des parties prenantes** pour éviter les malentendus et les blocages en cours de développement.
+Aujourd’hui, je me situe à un niveau intermédiaire-avancé. J’ai acquis des réflexes solides en coordination, planification et priorisation, notamment à travers des projets avec des équipes pluridisciplinaires. Cependant, je sens encore des limites dans la gestion des imprévus et des risques, surtout dans les projets longs ou avec des clients aux besoins changeants. J’ai par exemple constaté lors d’Info’s Dom que le manque d’anticipation des changements pouvait entraîner des surcharges avant une nouvelle réunion. J’aimerai ne pas perdre cette compétence mais je la pratique plus beaucoup du fait que dans mon alternance je suis uniquement dévellopeur.
 
 
 ## Mon Évolution dans cette Compétence
 
-**Projet futur** : Je souhaite **mieux formaliser la documentation projet** afin de **faciliter la passation d’informations**, notamment en utilisant des outils de gestion comme **Notion, Confluence ou Jira** pour centraliser et structurer les données.  
+Je souhaite **mieux formaliser la documentation projet** afin de **faciliter la passation d’informations**, notamment en utilisant des outils de gestion comme **Notion, Confluence ou Jira** pour centraliser et structurer les données.  
+Je continue à me former sur les **meilleures pratiques en gestion de projet agile**, en suivant des formations à Capgemini.
 
-**Formation continue** : Je continue à me former sur les **meilleures pratiques en gestion de projet agile**, en suivant des ressources sur **Scrum Mastery**, **Kanban avancé** et la **gestion des risques en entreprise**.
 
 ---
 
