@@ -24,7 +24,7 @@ Tout les jours où nous pouvions travailler sur le projet, nous avons fait des r
 
 ### Projet Microbio  
 
-Dans le cadre du projet **Microbio**, j’ai occupé le rôle de **Scrum Master**, ce qui impliquait la **gestion des réunions** et le **suivi des sprints** pour assurer un déroulement structuré du projet.
+Dans le cadre du projet **Microbio** ce qui impliquait la **gestion des réunions** et le **suivi des sprints** pour assurer un déroulement structuré du projet.
 
 L’un des défis majeurs de cette expérience a été de diriger l’organisation de l’équipe. J’ai appris à **adapter les sprints** en fonction des contraintes scolaires tout en veillant à ce que l’équipe avance de manière cohérente et efficace. De la même manière que sur le projet Androwing, le suivi se faisait à tout les créneaux mais cette fois ci, c’était moi qui animé les réunions.
 
