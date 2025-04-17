@@ -16,7 +16,7 @@ La communication en environnement professionnel comprend plusieurs aspects :
 
 Dans le cadre du projet **Androwing**, j’ai eu l’opportunité de **présenter l’application à l’association Aviron Agenais**, en réalisant des **démonstrations détaillées** sur son fonctionnement. L’objectif était de **montrer l’utilité du projet** pour les entraîneurs et les sportifs, tout en **expliquant de manière claire et concise** les aspects techniques de l’application.
 
-**Anecdote** : L’un des **principaux défis** de cette présentation était de **rendre compréhensibles les fonctionnalités techniques** à un public composé majoritairement de non-développeurs. J’ai donc axé mon discours sur **l’impact utilisateur**, en illustrant concrètement comment l’application améliorait le suivi des performances des rameurs.
+L’un des **principaux défis** de cette présentation était de **rendre compréhensibles les fonctionnalités techniques** à un public composé majoritairement de non-développeurs. J’ai donc axé mon discours sur **l’impact utilisateur**, en illustrant concrètement comment l’application améliorait le suivi des performances des rameurs.
 
 
 
@@ -24,7 +24,7 @@ Dans le cadre du projet **Androwing**, j’ai eu l’opportunité de **présente
 
 Lors du développement du projet **Microbio**, j’ai assuré la **présentation du projet à QSA Conseil**, l’entreprise cliente, en organisant des **échanges réguliers** pour m’assurer que l’application répondait précisément à leurs besoins.
 
-**Anecdote** : Une difficulté rencontrée a été **l’explication du fonctionnement des WebSockets** à des interlocuteurs n’ayant pas d’expérience technique sur le sujet. Pour surmonter cela, j’ai structuré mes explications en **adoptant un langage plus accessible**, en utilisant des **métaphores** et des **illustrations concrètes**, ce qui a grandement facilité la compréhension du concept par les parties prenantes.
+Une difficulté rencontrée a été **l’explication du fonctionnement des WebSockets** à des interlocuteurs n’ayant pas d’expérience technique sur le sujet. Pour surmonter cela, j’ai structuré mes explications en **adoptant un langage plus accessible**, en utilisant des **métaphores** et des **illustrations concrètes**, ce qui a grandement facilité la compréhension du concept par les parties prenantes.
 
 
 
@@ -32,16 +32,16 @@ Lors du développement du projet **Microbio**, j’ai assuré la **présentation
 
 Dans le projet **Info’s Dom**, j’ai échangé régulièrement avec **une cliente issue du secteur de l’architecture**, afin d’**ajuster l’interface utilisateur** de l’application en fonction des besoins des professionnels du domaine.
 
-**Anecdote** : Grâce aux **feedbacks réguliers** de la cliente, j’ai pu **adapter l’ergonomie de l’application**, en tenant compte des attentes spécifiques du secteur. Ces échanges m’ont appris à **écouter activement** et à **prendre en compte des perspectives différentes** pour améliorer un produit final.
+Grâce aux **feedbacks réguliers** de la cliente, j’ai pu **adapter l’ergonomie de l’application**, en tenant compte des attentes spécifiques du secteur. Ces échanges m’ont appris à **écouter activement** et à **prendre en compte des perspectives différentes** pour améliorer un produit final.
 
 
 ## Mon Autocritique
 
-**Niveau de maîtrise** : Je me considère comme **confirmé** en communication, avec une **aisance en présentation** et en **vulgarisation technique**.  
+Je me considère comme **confirmé** en communication, avec une **aisance en présentation** et en **vulgarisation technique**.  
 
-**Marge de progression** : Je souhaite améliorer ma capacité à **mener des discussions techniques avancées** avec des experts du domaine, notamment sur des sujets complexes nécessitant une approche plus pointue.  
+Je souhaite améliorer ma capacité à **mener des discussions techniques avancées** avec des experts du domaine, notamment sur des sujets complexes nécessitant une approche plus pointue.  
 
-**Importance de la compétence** : La communication est **fondamentale en entreprise**, notamment pour les **réunions avec des clients**, la **présentation de projets** et la **collaboration interdisciplinaire**.  
+La communication est **fondamentale en entreprise**, notamment pour les **réunions avec des clients**, la **présentation de projets** et la **collaboration interdisciplinaire**.  
 
 **Recul et conseils** : Il est essentiel d’**adapter son discours en fonction de son interlocuteur**. Une communication efficace repose sur la capacité à **synthétiser les informations complexes** et à **rendre accessibles des notions techniques** sans en altérer la précision.
 
