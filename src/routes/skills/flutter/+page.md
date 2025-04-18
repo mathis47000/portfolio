@@ -4,47 +4,46 @@
 **Flutter** est un framework open-source développé par Google, permettant de créer des **applications mobiles multiplateformes** à partir d’une seule base de code écrite en **Dart**. Grâce à son moteur graphique **Skia** et à son système de **widgets personnalisables**, Flutter offre une interface utilisateur **fluide, performante et réactive**.  
 Ce framework permet ainsi de **développer des applications natives** pour **Android, iOS, Windows, macOS et le web**, tout en garantissant une **expérience utilisateur homogène** et optimisée.
 
-Ce qui m’a attiré dans Flutter c’est de pouvoir faire le développement mobile et web dans un seul environnement, tout en conservant une performance égale à un dévellopement classique. C’est pour cela que j’utilise cette technologie dés que j’ai besoin de faire du dévellopement mobile.
+Ce qui m’a attiré dans Flutter c’est de pouvoir faire le développement mobile et web dans un seul environnement, tout en conservant une performance égale à un développement classique. C’est pour cela que j’utilise cette technologie dès que j’ai besoin de faire du développement mobile.
 
 ## Mes Éléments de Preuve
 
 ###  Projet Info’s Dom  
-Dans le cadre du projet **Info’s Dom**, j’ai utilisé **Flutter** pour développer une **application mobile** destinée aux **professionnels accompagnant des personnes âgées ou en situation de handicap**.  
-L’objectif principal était de **faciliter l’accès aux informations essentielles sur le domicile des bénéficiaires**, afin d’améliorer leur accompagnement quotidien.  
+Sur ce projet, j’ai utilisé Flutter pour développer une application mobile à destination de professionnels intervenant auprès de personnes âgées ou en situation de handicap.
 
-L’un des défis majeurs de ce projet était de concevoir une **navigation intuitive** et **accessible**, adaptée à un public **non technophile**. J’ai donc mis en place une **organisation optimisée des écrans** et une **expérience utilisateur fluide**, en appliquant les principes fondamentaux du **UX/UI Design**.  Suite à ces ajustements, mon permis de gagner beaucoup de temps au final, selon les retours des professionnels lors des entretiens utilisateurs.
+L’objectif était de rendre l’accès à l’information plus rapide et plus simple, avec une interface claire, lisible et une navigation intuitive, même pour des utilisateurs peu à l’aise avec le numérique.
 
-En parallèle, j’ai optimisé les performances de l’application en utilisant des widgets adaptés (ListView.builder, const widgets, gestion de l’état via setState au lieu de StatefulBuilder), ce qui a amélioré la fluidité du faite que le ListView.builder est plus fait pour les données de taille variables. 
+J’ai passé pas mal de temps à travailler sur structuration des écrans, ergonomie, lisibilité… Résultat, les retours des utilisateurs en entretiens ont montré que l’app leur faisait gagner du temps au quotidien.
+
+Côté technique, j’ai optimisé les perfs en utilisant des composants comme ListView.builder, des const widgets, et une gestion d’état légère avec setState. Ces choix m’ont permis de garder une app fluide, même avec des données variables. Cela m’a beaucoup fait travailler l’optimisation des listes en général sur Flutter.
 
 
 
 ###  Projet Flutter Miaou  
-Lors de mon **septième semestre**, j’ai entrepris le développement d’une **version Flutter** de l’application de **messagerie instantanée Miaou**, en réutilisant le backend existant basé sur **Node.js et Socket.io**.  
+Lors de mon **septième semestre**, j’ai fait le développement d’une **version Flutter** de l’application de **messagerie instantanée Miaou**, en utilisant le backend existant basé sur **Node.js et Socket.io**. Ce a été fait dans le cadre d’un cours sur Flutter.
 Ce projet m’a permis d’explorer **les spécificités de Flutter en gestion d’état** et **l’implémentation des WebSockets en Dart**.  
 
-J’ai rencontré des **difficultés avec le pattern BLoC**, qui est une approche avancée pour la gestion d’état en Flutter. Face à ces challenges, j’ai expérimenté **différentes solutions** et optimisé la gestion des états de l’application, ce qui m’a permis d’acquérir une meilleure compréhension des **architectures Flutter modernes**.
-Après plusieurs itérations, j’ai restructuré l’architecture en isolant les couches logiques via des
-Streams, réduisant les temps de rechargement de certaines vues.
-J’ai aussi intégré les WebSockets à l’aide de socket_io_client, en gérant les connexions et déconnexions via un StreamController, assurant ainsi une synchronisation temps réel sans surcharge du thread principal. Mais malheureusement dû au peu de temps je n’ai pas pu faire une sctructure bien construite pour une évolution de l’applcation possible.
-
-Ce projet a renforcé ma compréhension de la gestion des états dans Flutter, mais aussi des pratiques d’architecture logicielle sur mobile. Mais j’ai encore du chemin pour tout comprendre à cause de la différence avec les autres framework existant.
+Le BLoC m’a donné pas mal de difficultés au début. Mais en testant différentes approches et en structurant mieux le code (streams, séparation des logiques métier/UI), j’ai fini par obtenir une architecture plus propre et plus performante.
+Côté WebSocket, j’ai utilisé socket_io_client avec des StreamController pour gérer les connexions/déconnexions sans bloquer le thread principal. Même si le résultat était fonctionnel, je manque encore de recul pour construire une architecture scalable sur le long terme.
+Ce projet m’a vraiment permis de progresser sur Flutter, mais m’a aussi montré tout ce que je devais encore apprendre, notamment en comparaison avec d’autres frameworks.
 
 
 ## Mon Autocritique  
 
-Mon niveau actuel en Flutter est intermédiaire. Je maîtrise bien les bases (navigation, widgets, performance) ainsi que des aspects plus avancés comme la gestion d’état avec BLoC, les animations, ou encore la consommation d’API REST et WebSocket.
+Mon niveau actuel en Flutter est intermédiaire. Je maîtrise bien les bases (navigation, widgets, performance) ainsi que des aspects plus avancés comme la gestion d’état avec BLoC, les animations et aussi la consommation d’API REST et WebSocket.
 
-Cependant, j’ai encore des axes d’amélioration : je souhaite approfondir ma connaissance d’architectures plus modulaires et testables, comme celle de Riverpod ou Clean Architecture, pour faciliter la maintenance de projets à plus grande échelle.
-Je réalise également que certains choix faits lors de mes premiers projets auraient pu être mieux pensés avec une meilleure anticipation (ex. sur le découpage des responsabilités dans les classes).
+Je souhaite approfondir ma connaissance d’architectures plus modulaires et testables, comme celle de Riverpod ou Clean Architecture, pour faciliter la maintenance de projets à plus grande échelle.
+Je réalise également que certains choix faits lors de mes premiers projets auraient pu être mieux pensés avec une meilleure anticipation comme sur le découpage des intéractions et échanges de données.
 
-Flutter est pour moi une compétence stratégique, car elle me permet de proposer des solutions performantes, visuellement attractives et rapidement livrables. Sa montée en puissance dans le monde professionnel renforce son intérêt. Mais très peu utilisé pour le moment parce que je ne fais plus trop de mobile donc à voir pour l’évolution de cette compétence à l’avenir.
+Flutter reste une technologie stratégique pour moi, car elle permet de livrer vite, bien et sur plusieurs plateformes. Mais je remarque aussi que Google semble un peu ralentir le rythme des nouveautés, ce qui me fait rester prudent sur son adoption à long terme.
 
 
 ## Mon Évolution dans cette Compétence  
 
-Je souhaite **approfondir mes compétences en Flutter** en travaillant sur des projets plus complexes, notamment en entreprise, afin d’**optimiser des applications mobiles performantes et évolutives** (si je réussi à trouver une entreprise ou un projet l’utilisant).
-Je continue à **suivre la documentation officielle Flutter** et à **expérimenter des tutoriels avancés**, afin de me perfectionner.
-Mais je trouve un petit relachement de Google sur les nouveautés de cette technologie donc j’ai quelques réticences à mettre toute mon énergie dans ce framework. 
+J’aimerais continuer à progresser en Flutter, surtout si j’ai l’occasion de bosser sur un projet professionnel d’envergure.
+Je continue à suivre la documentation officielle, des tutos avancés et je reste attentif aux évolutions de l’écosystème même si ça stagne un peu côté Google en ce moment.
+
+Si un projet client ou personnel se prête bien au mobile, je n’hésiterai pas à réutiliser Flutter mais sinon, j’attendrai de voir comment l’outil évolue dans les prochaines années.
 
 ---
 ## Principales Réalisations Rattachées  
