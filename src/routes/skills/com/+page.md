@@ -14,44 +14,41 @@ La communication en environnement professionnel comprend plusieurs aspects :
 
 ### Projet Androwing  
 
-Dans le cadre du projet **Androwing**, j’ai eu l’opportunité de **présenter l’application à l’association Aviron Agenais**, en réalisant des **démonstrations détaillées** sur son fonctionnement. L’objectif était de **montrer l’utilité du projet** pour les entraîneurs et les sportifs, tout en **expliquant de manière claire et concise** les aspects techniques de l’application.
-
-L’un des **principaux défis** de cette présentation était de **rendre compréhensibles les fonctionnalités techniques** à un public composé majoritairement de non-développeurs. J’ai donc axé mon discours sur **l’impact utilisateur**, en illustrant concrètement comment l’application améliorait le suivi des performances des rameurs.
+Lors de Androwing, j’ai présenté l’appli directement à l’association Aviron Agenais, en expliquant son fonctionnement et ses bénéfices pour les entraîneurs et rameurs. L’objectif était de **montrer l’utilité du projet** pour les entraîneurs et les sportifs, tout en **expliquant de manière claire et concise** les aspects techniques de l’application.
+Le défi principal, c’était d’expliquer les aspects techniques à un public non technique. J’ai donc choisi de me concentrer sur l’expérience utilisateur, comment l’appli les aide au quotidien, sans entrer trop dans le code. Nous avons dû préparer des mots clés et des sujets à aborder durant les réunions, cela nous a permis de bien transmettre nos besoins et de récupérer les attentes de l’Aviron Agenais.
 
 
 
 ###  Projet Microbio  
 
-Lors du développement du projet **Microbio**, j’ai assuré la **présentation du projet à QSA Conseil**, l’entreprise cliente, en organisant des **échanges réguliers** pour m’assurer que l’application répondait précisément à leurs besoins.
+Pour Microbio, j’ai été en contact direct avec QSA Conseil, le client. J’ai mené les présentations du projet et organisé des points réguliers pour m’assurer que l’on répondait bien à leurs attentes.
 
-Une difficulté rencontrée a été **l’explication du fonctionnement des WebSockets** à des interlocuteurs n’ayant pas d’expérience technique sur le sujet. Pour surmonter cela, j’ai structuré mes explications en **adoptant un langage plus accessible**, en utilisant des **métaphores** et des **illustrations concrètes**, ce qui a grandement facilité la compréhension du concept par les parties prenantes.
+À un moment, j’ai dû leur expliquer le fonctionnement des WebSockets. Plutôt que de rentrer dans la technique brute, j’ai utilisé des images simples et des analogies (type : "c’est comme une ligne téléphonique en continu entre l’app et le serveur"). Cette approche leur a permis de vraiment saisir l’intérêt pour exploiter cette technologie.
 
 
 
 ### Projet Info’s Dom  
 
-Dans le projet **Info’s Dom**, j’ai échangé régulièrement avec **une cliente issue du secteur de l’architecture**, afin d’**ajuster l’interface utilisateur** de l’application en fonction des besoins des professionnels du domaine.
+Sur Info’s Dom, j’ai échangé régulièrement avec une cliente du monde de l’architecture, pour adapter l’interface à ses besoins métiers.
 
-Grâce aux **feedbacks réguliers** de la cliente, j’ai pu **adapter l’ergonomie de l’application**, en tenant compte des attentes spécifiques du secteur. Ces échanges m’ont appris à **écouter activement** et à **prendre en compte des perspectives différentes** pour améliorer un produit final.
+Ce projet m’a appris à écouter, reformuler, poser les bonnes questions. Grâce à ses retours fréquents, j’ai pu affiner l’ergonomie de l’app, tout en apprenant à mieux collaborer avec des profils non tech mais exigeants. Par exemple, j’ai fait une réunion avec le client qui avait besoin que je fasse un retour donc nous sommes allés dans le cabinet d’architecte qui nous a accueilli. Et j’ai pu exposer mon travail sur la partie visuel et mes explications ont été claires au yeux du client qui m’avait félicité.
 
 
 ## Mon Autocritique
 
-Je me considère comme **confirmé** en communication, avec une **aisance en présentation** et en **vulgarisation technique**.  
+Je me considère comme moyen en communication, avec une aisance en présentation et en vulgarisation technique.
 
-Je souhaite améliorer ma capacité à **mener des discussions techniques avancées** avec des experts du domaine, notamment sur des sujets complexes nécessitant une approche plus pointue.  
+Je souhaite améliorer ma capacité à mener des discussions techniques avancées avec des experts du domaine notamment en faisant plus de présentations et intervenir davantage dans les réunions futures dans mes futures employés.
 
-La communication est **fondamentale en entreprise**, notamment pour les **réunions avec des clients**, la **présentation de projets** et la **collaboration interdisciplinaire**.  
-
-**Recul et conseils** : Il est essentiel d’**adapter son discours en fonction de son interlocuteur**. Une communication efficace repose sur la capacité à **synthétiser les informations complexes** et à **rendre accessibles des notions techniques** sans en altérer la précision.
+La communication, c’est un vrai levier pour faire avancer un projet. Quand tout le monde comprend où on va, les choses avancent plus vite et dans la bonne direction.
 
 
 
 ## Mon Évolution dans cette Compétence
 
-**Projet futur** : Je souhaite **développer davantage ma capacité à "pitcher" un projet** de manière **concise et impactante**, en m’entraînant à des **présentations dynamiques et interactives**.  
+Je veux continuer à m’entraîner à présenter mes projets de manière claire et percutante, que ce soit face à un client, un jury ou une équipe.
 
-**Formation continue** : Je suis des **ateliers de communication** et je m’exerce régulièrement à la **prise de parole en public** pour perfectionner mon aisance orale.
+Je vais continuer à essayer de m’améliorer et prendre plus de faciliter en anglais qui n’ai pas ma langue maternelle donc l’improvisation est beaucoup moins facile.
 
 
 ---
@@ -64,3 +61,5 @@ La communication est **fondamentale en entreprise**, notamment pour les **réuni
 <Button pill href="/projects/androwing" color="alternative">Androwing</Button>
 <Button pill href="/projects/microbio" color="alternative">Microbio</Button>
 <Button pill href="/projects/infos-dom" color="alternative">Info's Dom</Button>
+
+
