@@ -16,35 +16,33 @@ Le **stockage local** désigne l'ensemble des technologies permettant de conserv
 
 ### Projet Miaou
 
-Dans le cadre du projet **Miaou**, une application de messagerie instantanée, j'ai implémenté **IndexedDB** pour conserver l'historique des messages localement. Cela garantissait aux utilisateurs un accès à leurs conversations même en mode hors ligne.
+Pour Miaou, j’ai utilisé IndexedDB afin de stocker les messages localement. Le but était d’assurer l'accès aux conversations même en hors-ligne.
 
-Lors du développement, un défi majeur était d'assurer la persistance des messages malgré les rafraîchissements de page ou les fermetures inattendues du navigateur. L'utilisation d'IndexedDB a permis de surmonter cette difficulté en offrant une solution de stockage hors avec plus de structure que le Localstorage que je trouve trop versatile.
+L’un des gros challenges a été de garantir la persistance des données malgré les rechargements ou fermetures du navigateur. IndexedDB m’a offert plus de structure et de robustesse que le Local Storage, qui reste trop limité selon moi pour ce genre d’usage. J’ai beaucoup plus de difficulté à le mettre en place que si j’avais utilisé le localStorage surtout au niveau de la configuration mais très ensuite.
 
 ### Projet Androwing
 
-Pour l'application **Androwing**, destinée à l'enregistrement des performances sportives des rameurs, j'ai utilisé **SQLite** pour stocker localement les données des utilisateurs sur les appareils Android. Cela permettait une consultation rapide et une analyse des performances sans nécessiter de connexion internet constante.
+Dans le cadre du projet Androwing, j’ai intégré SQLite pour enregistrer les données utilisateur localement sur Android. Ce choix permettait une consultation fluide et rapide des performances, même sans connexion.
 
-L'intégration de SQLite a posé des défis en termes de synchronisation des données entre l'application locale et le serveur central. J'ai mis en place des mécanismes de synchronisation pour assurer la cohérence des données. Mais en général, je n’ai pas trop eu de mal à utiliser cette base de données simple et efficace pour les petites applications. Le seul souci que j’ai rencontré était des erreurs circulaires dans l’exploitation des données avec l’API.
+La synchronisation entre base locale et serveur central m’a demandé pas mal de rigueur, surtout pour éviter les doublons ou conflits. J’ai dû gérer manuellement certains flux, mais dans l’ensemble, SQLite s’est avéré simple et fiable. Le seul vrai souci était que j’avais quelques erreurs de boucle dans les traitements d’API, dues à des appels mal gérés.
 
 ### Projet Flutter Miaou
 
-Dans le projet **Flutter Miaou**, une adaptation mobile de l'application de messagerie, j'ai utilisé **SharedPreferences** pour stocker des paramètres utilisateur et des configurations spécifiques à l'application. Cela garantissait une expérience utilisateur cohérente et personnalisée sur différentes sessions.
-
-L'un des défis rencontrés était de gérer efficacement les préférences utilisateur tout en assurant une compatibilité entre différentes versions de l'application. L'utilisation de SharedPreferences a facilité cette gestion en offrant une utilisation hors ligne. Le plus dur était de mettre en place les autorisations pour l’utilisateur.
+Dans Flutter Miaou, j’ai utilisé SharedPreferences pour stocker les paramètres utilisateurs et garantir une expérience cohérente d’une session à l’autre.
+Les points de friction sont surtout venus des droits d'accès et de la compatibilité entre versions. Une fois configuré correctement, SharedPreferences s’est montré stable et pratique pour les petits éléments de config.
 
 ## Mon Autocritique
 
-Grâce à ces différents projets, j’ai développé une expertise avancée dans l’implémentation du stockage local sur différentes plateformes. Que ce soit avec IndexedDB sur le web ou SQLite et SharedPreferences sur mobile, j’ai appris à adapter la solution à la nature des données et au contexte d’usage.
+Ces projets m’ont permis de tester plusieurs solutions de stockage local, en fonction des besoins réels. J’ai compris l’intérêt d’adapter l’outil à la plateforme, au volume de données et à la structure.
 
-Cela dit, j’ai aussi rencontré des limites, notamment dans la gestion de la synchronisation des données. Par exemple, sur le projet Androwing, concilier données locales et serveurs distants m’a forcé à repenser mes modèles de données et les logiques de cache.
+Mais il m’est arrivé de faire des erreurs, notamment en stockant un token dans le Local Storage au début, ce qui ouvrait la porte à des failles XSS. Cette erreur m’a vraiment sensibilisé à la sécurité des données stockées localement.
 
-Avec le recul, je réalise qu’il est facile de sous-estimer les risques liés à la sécurité. J’ai par exemple stocké par erreur un token de session dans le Localstorage, ce qui exposait l’application à des attaques XSS. Cette erreur m’a sensibilisé à l’importance de bien connaître les faiblesses de chaque solution.
-
-À l’avenir, je compte approfondir les techniques de stockage chiffré, notamment pour les applications sensibles, et mieux intégrer les questions de performance et de protection des données dès la conception.
+Autre point à améliorer était  la gestion de la synchronisation entre local et distant, surtout sur des projets plus dynamiques. Je commence à mieux structurer mes modèles de données pour limiter les conflits, mais il reste du travaille.
 
 ## Mon Évolution dans cette Compétence
 
-Je prévois d'explorer une plus grande plage de solutions de stockage sécurisées et chiffrées pour des applications nécessitant une protection accrue des données utilisateur afin d’être sûr de mes prochains projets.
+Je souhaite continuer à explorer des solutions plus sécurisées avec du chiffrement local par exemple, pour mieux anticiper les risques.
+Je compte aussi affiner mes logiques de cache, de synchronisation et d’optimisation, surtout pour des applis plus sensibles.
 ---
 ### Principales Réalisations Rattachées
 
@@ -55,3 +53,4 @@ Je prévois d'explorer une plus grande plage de solutions de stockage sécurisé
 <Button pill href="/projects/miaou" color="alternative">Miaou</Button>
 <Button pill href="/projects/androwing" color="alternative">Androwing</Button>
 <Button pill href="/projects/flutter-miaou" color="alternative">Flutter Miaou</Button>
+

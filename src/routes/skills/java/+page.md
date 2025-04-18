@@ -8,7 +8,7 @@
 
 ### Projet Androwing
 
-Lors du développement de l'application **Androwing**, j'ai utilisé Java pour créer une application Android dédiée à l'enregistrement des performances sportives des rameurs.
+Lors du développement de l'application **Androwing**, j'ai utilisé Java pour créer une application Android dédiée à l'enregistrement des performances sportives lors des séances de  rameurs.
 Pour assurer une communication efficace entre l'application et le backend développé en Flask, j'ai intégré la bibliothèque **Retrofit**. Cette expérience m'a permis de maîtriser la gestion des appels réseau asynchrones sur une plateforme mobile, garantissant ainsi une synchronisation fluide des données des utilisateurs. J’ai eu plus de mal à implémenter la logique données pour chaques écrans mais cela m’a permis de progresser.
 
 ### Projet Microbio
@@ -19,13 +19,13 @@ Ce projet m'a offert l'opportunité de structurer efficacement le backend, en ap
 
 ## Mon Autocritique
 
-Grâce à ces projets, j’ai acquis un niveau quasi confiré en Java, que ce soit pour le développement Android ou backend. J’ai notamment appris à structurer un projet avec Maven, à gérer les appels réseau et à assurer une bonne communication entre une application mobile et un backend.
-Cela dit, je ressens quelques amélioratoin côté Android. J’aimerais aussi approfondir les aspects avancés de la configuration backend en Java, et mieux comparer les forces de Spring Boot par rapport à d'autres solutions comme Node.js ou Flask.
-Avec le recul, je pense que j’aurais pu mieux documenter mes choix techniques, ce qui aurait facilité le travail en équipe ou la reprise de projet.
+Grâce à ces projets, j’ai acquis un niveau quasi confirmé en Java, que ce soit pour le développement Android ou backend. J’ai notamment appris à structurer un projet avec Maven, à gérer les appels réseau et à assurer une bonne communication entre une application mobile et un backend.
+Cela dit, je ressens quelques améliorations côté Android. J’aimerais aussi approfondir les aspects avancés de la configuration backend en Java, et mieux comparer les forces de Spring Boot par rapport à d'autres solutions comme Node.js ou Flask.
+Avec le recul, je pense que j’aurais pu mieux documenter les choix techniques, ce qui aurait facilité le travail en équipe ou la reprise de projet.
 
 ## Mon Évolution dans cette Compétence
 
-Je prévois d'explorer **Kotlin**, qui gagne en popularité et tend à compléter ou remplacer Java dans le développement Android moderne. Et bien sûr continuer d’utiliser Java (Spring boot) en tant qu’API comme je le fait actuellement en alternance.
+Je prévois d'explorer Flutter qui gagne en popularité et peut-être remplacer Java dans le développement Android moderne. Et bien sûr continuer d’utiliser Java (Spring boot) en tant qu’API comme je le fais actuellement en alternance.
 
 ---
 ## Principales Réalisations Rattachées
