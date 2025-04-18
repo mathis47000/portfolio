@@ -2,54 +2,57 @@
 
 ## Définition
 
-L’**autonomie et l’apprentissage** sont des compétences essentielles permettant d’**évoluer en continu**, d’**explorer de nouvelles technologies** et d’**améliorer ses compétences** de manière proactive. Dans un environnement technologique en constante évolution, la capacité à apprendre **de façon autonome** et à s’adapter rapidement est un atout majeur.  
+L’**autonomie et l’apprentissage** sont des compétences essentielles permettant d’**évoluer en continu**, d'alimenter sa curiosité et d’**améliorer ses compétences** de manière proactive. Dans un environnement technologique en constante évolution, la capacité à apprendre **de façon autonome** et s'adapter rapidement est un atout majeur.  
 
-Cette compétence inclut plusieurs aspects :  
-- **La capacité à apprendre seul** en s’appuyant sur la **documentation officielle, les formations en ligne et la veille technologique**.  
-- **L’aptitude à expérimenter de nouvelles technologies** en dehors du cadre académique ou professionnel, en développant des projets personnels.  
-- **L’auto-évaluation et l’amélioration continue**, permettant d’identifier ses points faibles et de les travailler activement.
+Pour moi, cette compétence repose sur trois axes :
+
+Chercher l’info à la source : lire la documentation officielle, suivre des tutoriels, faire de la veille.
+Tester des choses nouvelles, parfois en dehors des projets de cours, juste pour le plaisir de comprendre.
+Se remettre en question, identifier ce qu’on maîtrise moins bien et progresser étape par étape.
 
 
 ## Mes Éléments de Preuve
 
 ### Projet Miaou  
 
-Dans le cadre du projet **Miaou**, j’ai développé en autonomie une **Progressive Web App (PWA) de messagerie instantanée**, sans utiliser de framework frontend. L’objectif était de construire une solution légère et efficace en utilisant uniquement **JavaScript pur**, tout en intégrant **IndexedDB pour le stockage local des messages** et **WebSockets pour la communication en temps réel**.
+Sur le projet Miaou, j’ai codé une PWA (Progressive Web App) de messagerie en JavaScript pur, sans framework. J’ai intégré IndexedDB pour le stockage local et WebSockets (socket.io) pour la communication en temps réel deux technos que je ne connaissais pas du tout avant.
 
-L’un des principaux défis de ce projet était **l’apprentissage de IndexedDB et WebSockets**, technologies que je n’avais jamais utilisées auparavant. J’ai relevé ce challenge en **consultant la documentation officielle** et en pratiquant via **des essais-erreurs**, ce qui m’a permis d’acquérir une **compréhension approfondie de ces technologies**.
+J’ai tout appris en autonomie : lecture de la documentation pour comprendre le fonctionnement des PWA, socket.io mais aussi IndexedDB, beaucoup de tests, pas mal d’erreurs. Et c’était pour moi une vraie compréhension de ces outils et surtout une confiance renforcée dans ma capacité à apprendre seul.
 
 
 
 ### Projet Flutter Miaou  
 
-Lors du projet **Flutter Miaou**, j’ai appris **Flutter** en **seulement une semaine** afin de recréer l’application **Miaou** sur mobile. Ce projet m’a permis de découvrir **Dart**, ainsi que l’architecture des applications mobiles cross-platform.
+Pour Flutter Miaou, j’ai dû apprendre Flutter et Dart en une semaine, alors que je ne connaissais rien aux applis mobiles cross-platform. C’était un gros défi, mais ça m’a motivé à me plonger à fond dedans.
 
-L’un des défis majeurs de ce projet a été **l’implémentation des WebSockets en Dart**, une technologie que je ne maîtrisais pas encore. Pour comprendre leur fonctionnement, j’ai **plongé en profondeur dans la gestion des états en Flutter**, en réalisant plusieurs tests pour trouver la meilleure manière de gérer la communication en temps réel.
+J’ai aussi dû réintégrer les WebSockets en Dart. Je suis allé chercher la bonne façon de gérer les états et les flux de données en temps réel. Je n’ai pas réussi à tout maîtriser parfaitement (faute de temps), mais j’ai appris énormément sur le fonctionnement de Flutter.
 
 
 ### Projet Info’s Dom  
 
-Pour le projet **Info’s Dom**, j’ai mené une **exploration des meilleures pratiques UX/UI** afin de rendre l’interface plus intuitive et adaptée aux besoins des utilisateurs.
+Pour ce projet, j’ai travaillé en autonomie sur le côté visuel en Flutter. J’ai fait beaucoup de recherches sur les bonnes pratiques et analysé comment d'autres apps s’y prenaient pour améliorer la navigation. J’ai ensuite adapté l’interface pour qu’elle s’adapte au mieux aux attentes des utilisateurs finaux.
 
-Afin d’optimiser l’ergonomie de l’application, j’ai **étudié des cas d’usage réels**, notamment en analysant les comportements des utilisateurs sur d’autres plateformes similaires. Cette recherche m’a permis d’**adapter la navigation et l’expérience utilisateur** aux attentes des professionnels du secteur.
+Cette phase de recherche et d’implémentation m’a permis de mieux comprendre les choix de design centrés utilisateurs, même sans retour direct d’un UX designer. Malheureusement je ne suis pas allé au bout de l’application mais j’ai pu avoir une grande expérience d’autonomie.
 
 
 ## Mon Autocritique
 
-Je considère mon niveau en **autonomie et apprentissage** comme **élevé**, ayant développé une forte capacité à **apprendre rapidement** et à **m’adapter aux nouvelles technologies**.  
 
-Mon objectif est d’**approfondir l’optimisation des performances** sur les **frameworks et outils** que j’ai explorés, afin d’en tirer le meilleur parti dans mes futurs projets.  
 
-L’**apprentissage continu** est **fondamental** dans le secteur du développement, où les technologies évoluent rapidement. La capacité à apprendre en autonomie permet de **rester compétitif et pertinent** dans un environnement en perpétuel changement.
+Je considère mon niveau en **autonomie et apprentissage** comme **relativement bon**, ayant développé une forte capacité à **apprendre rapidement** et à **m’adapter aux nouvelles technologies**.  
 
-Pour **progresser rapidement**, il est essentiel de **ne pas avoir peur d’expérimenter** et de **sortir de sa zone de confort**. Lire de la documentation, suivre des tutoriels et surtout **pratiquer via des projets concrets** sont les clés d’un apprentissage efficace.
+J’ai appris à ne pas attendre qu’on me dise quoi faire pour avancer. Dès qu’une techno m’intéresse, je creuse. Et si je ne comprends pas tout, je teste, je recommence. C’est grâce à cette autonomie que j’ai pu mener à bien autant de projets variés, même quand je partais de zéro.
+
+J’ai encore envie de progresser sur des points plus techniques comme l’optimisation des perfs, mais je sais que je peux m’en donner les moyens. Pour moi, l’autonomie est une compétence qui se travaille comme une autre en faisant des erreurs.
+
+Pour progresser rapidement, il est essentiel de ne pas avoir peur d’expérimenter et de sortir de sa zone de confort. Lire de la documentation, suivre des tutoriels et surtout pratiquer via des projets concrets sont les clés d’un apprentissage efficace.
 
 
 ## Mon Évolution dans cette Compétence
 
 Je souhaite approfondir **NestJS** pour le développement backend et explorer des **bases de données avancées** afin d’**optimiser les performances** de mes applications.  
 
-Je poursuis ma formation en **apprentissage autodidacte**, en suivant des cours en ligne, en participant à des challenges de programmation et en réalisant des projets personnels pour tester de nouvelles technologies.
+Je poursuis mon apprentissage dans différentes technologie en suivant des vidées, en participant à des challenges de programmation et en réalisant des projets personnels pour tester de nouvelles technologies.
 
 ---
 
