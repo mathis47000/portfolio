@@ -2,15 +2,15 @@
 
 ### Définition
 
-Le **stockage local** désigne l'ensemble des technologies permettant de conserver des données côté client, sans nécessiter d'accès permanent à un serveur. Selon le contexte et la plateforme, différentes solutions sont utilisées :
+Le  stockage local  désigne l'ensemble des technologies permettant de conserver des données côté client, sans nécessiter d'accès permanent à un serveur. Selon le contexte et la plateforme, différentes solutions sont utilisées :
 
-- **IndexedDB** : Une base de données NoSQL intégrée aux navigateurs web, permettant de stocker des quantités importantes de données structurées. Elle est asynchrone et adaptée aux applications web complexes.
+-  IndexedDB  : Une base de données NoSQL intégrée aux navigateurs web, permettant de stocker des quantités importantes de données structurées. Elle est asynchrone et adaptée aux applications web complexes.
 
-- **Local Storage** : Un mécanisme de stockage synchrone basé sur des paires clé-valeur, principalement utilisé pour stocker des données légères et simples dans les applications web.
+-  Local Storage  : Un mécanisme de stockage synchrone basé sur des paires clé-valeur, principalement utilisé pour stocker des données légères et simples dans les applications web.
 
-- **SQLite** : Une base de données relationnelle légère, embarquée dans de nombreuses plateformes, notamment mobiles. Elle est adaptée au stockage de données structurées complexes et volumineuses.
+-  SQLite  : Une base de données relationnelle légère, embarquée dans de nombreuses plateformes, notamment mobiles. Elle est adaptée au stockage de données structurées complexes et volumineuses.
 
-- **SharedPreferences** : Un système de stockage clé-valeur spécifique à Android, idéal pour conserver des préférences utilisateur ou des configurations simples.
+-  SharedPreferences  : Un système de stockage clé-valeur spécifique à Android, idéal pour conserver des préférences utilisateur ou des configurations simples.
 
 ## Mes Éléments de Preuve
 

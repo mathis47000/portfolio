@@ -2,7 +2,7 @@
 
 ## Définition
 
-L’**autonomie et l’apprentissage** sont des compétences essentielles permettant d’**évoluer en continu**, d'alimenter sa curiosité et d’**améliorer ses compétences** de manière proactive. Dans un environnement technologique en constante évolution, la capacité à apprendre **de façon autonome** et s'adapter rapidement est un atout majeur.  
+L’ autonomie et l’apprentissage  sont des compétences essentielles permettant d’ évoluer en continu , d'alimenter sa curiosité et d’ améliorer ses compétences  de manière proactive. Dans un environnement technologique en constante évolution, la capacité à apprendre  de façon autonome  et s'adapter rapidement est un atout majeur.  
 
 Pour moi, cette compétence repose sur trois axes :
 
@@ -39,7 +39,7 @@ Cette phase de recherche et d’implémentation m’a permis de mieux comprendre
 
 
 
-Je considère mon niveau en **autonomie et apprentissage** comme **relativement bon**, ayant développé une forte capacité à **apprendre rapidement** et à **m’adapter aux nouvelles technologies**.  
+Je considère mon niveau en  autonomie et apprentissage  comme  relativement bon , ayant développé une forte capacité à  apprendre rapidement  et à  m’adapter aux nouvelles technologies .  
 
 J’ai appris à ne pas attendre qu’on me dise quoi faire pour avancer. Dès qu’une techno m’intéresse, je creuse. Et si je ne comprends pas tout, je teste, je recommence. C’est grâce à cette autonomie que j’ai pu mener à bien autant de projets variés, même quand je partais de zéro.
 
@@ -50,7 +50,7 @@ Pour progresser rapidement, il est essentiel de ne pas avoir peur d’expérimen
 
 ## Mon Évolution dans cette Compétence
 
-Je souhaite approfondir **NestJS** pour le développement backend et explorer des **bases de données avancées** afin d’**optimiser les performances** de mes applications.  
+Je souhaite approfondir  NestJS  pour le développement backend et explorer des  bases de données avancées  afin d’ optimiser les performances  de mes applications.  
 
 Je poursuis mon apprentissage dans différentes technologie en suivant des vidées, en participant à des challenges de programmation et en réalisant des projets personnels pour tester de nouvelles technologies.
 

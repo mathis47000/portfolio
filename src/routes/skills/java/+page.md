@@ -2,18 +2,18 @@
 
 ## Ma Définition
 
-**Java** est un langage de programmation orienté objet, reconnu pour sa robustesse et sa portabilité. Il est largement utilisé dans divers domaines du développement logiciel. En particulier, il est essentiel pour le développement d'applications Android, où il permet de créer des applications natives performantes. De plus, Java est couramment utilisé pour le développement de backends, notamment avec des outils comme **Maven** et des frameworks tels que **Spring Boot**, facilitant la gestion des dépendances et la configuration des projets.
+ Java  est un langage de programmation orienté objet, reconnu pour sa robustesse et sa portabilité. Il est largement utilisé dans divers domaines du développement logiciel. En particulier, il est essentiel pour le développement d'applications Android, où il permet de créer des applications natives performantes. De plus, Java est couramment utilisé pour le développement de backends, notamment avec des outils comme  Maven  et des frameworks tels que  Spring Boot , facilitant la gestion des dépendances et la configuration des projets.
 
 ## Mes Éléments de Preuve
 
 ### Projet Androwing
 
-Lors du développement de l'application **Androwing**, j'ai utilisé Java pour créer une application Android dédiée à l'enregistrement des performances sportives lors des séances de  rameurs.
-Pour assurer une communication efficace entre l'application et le backend développé en Flask, j'ai intégré la bibliothèque **Retrofit**. Cette expérience m'a permis de maîtriser la gestion des appels réseau asynchrones sur une plateforme mobile, garantissant ainsi une synchronisation fluide des données des utilisateurs. J’ai eu plus de mal à implémenter la logique données pour chaques écrans mais cela m’a permis de progresser.
+Lors du développement de l'application  Androwing , j'ai utilisé Java pour créer une application Android dédiée à l'enregistrement des performances sportives lors des séances de  rameurs.
+Pour assurer une communication efficace entre l'application et le backend développé en Flask, j'ai intégré la bibliothèque  Retrofit . Cette expérience m'a permis de maîtriser la gestion des appels réseau asynchrones sur une plateforme mobile, garantissant ainsi une synchronisation fluide des données des utilisateurs. J’ai eu plus de mal à implémenter la logique données pour chaques écrans mais cela m’a permis de progresser.
 
 ### Projet Microbio
 
-Dans le cadre du projet **Microbio**, j'ai mis en place un backend en Java en utilisant **Maven** pour gérer les dépendances et la configuration du projet.
+Dans le cadre du projet  Microbio , j'ai mis en place un backend en Java en utilisant  Maven  pour gérer les dépendances et la configuration du projet.
 
 Ce projet m'a offert l'opportunité de structurer efficacement le backend, en appliquant les bonnes pratiques pour assurer une évolutivité optimale. J'ai notamment travaillé sur la websocket pour les tâches en temps réel et c’était une découverte pour ma part. C’était compliqué de l’implémenter avec java mais j’ai pu progresser grâce à ça.
 

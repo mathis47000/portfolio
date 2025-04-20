@@ -2,19 +2,19 @@
 
 ## Définition
 
-La **communication** est une compétence essentielle dans le développement de projets, permettant de **partager des idées**, **expliquer des concepts techniques** et **collaborer efficacement** avec des équipes **techniques et non techniques**. Elle joue un rôle clé dans la réussite d’un projet en facilitant la transmission des informations et en assurant une compréhension commune des objectifs et des attentes.  
+La  communication  est une compétence essentielle dans le développement de projets, permettant de  partager des idées ,  expliquer des concepts techniques  et  collaborer efficacement  avec des équipes  techniques et non techniques . Elle joue un rôle clé dans la réussite d’un projet en facilitant la transmission des informations et en assurant une compréhension commune des objectifs et des attentes.  
 
 La communication en environnement professionnel comprend plusieurs aspects :  
-- **La transmission claire des informations** entre les membres d’une équipe.  
-- **La vulgarisation des concepts techniques** pour les parties prenantes non techniques.  
-- **L’art de présenter un projet** à un public varié, en s’adaptant à son niveau de compréhension et ses attentes.
+-  La transmission claire des informations  entre les membres d’une équipe.  
+-  La vulgarisation des concepts techniques  pour les parties prenantes non techniques.  
+-  L’art de présenter un projet  à un public varié, en s’adaptant à son niveau de compréhension et ses attentes.
 
 
 ## Mes Éléments de Preuve
 
 ### Projet Androwing  
 
-Lors de Androwing, j’ai présenté l’appli directement à l’association Aviron Agenais, en expliquant son fonctionnement et ses bénéfices pour les entraîneurs et rameurs. L’objectif était de **montrer l’utilité du projet** pour les entraîneurs et les sportifs, tout en **expliquant de manière claire et concise** les aspects techniques de l’application.
+Lors de Androwing, j’ai présenté l’appli directement à l’association Aviron Agenais, en expliquant son fonctionnement et ses bénéfices pour les entraîneurs et rameurs. L’objectif était de  montrer l’utilité du projet  pour les entraîneurs et les sportifs, tout en  expliquant de manière claire et concise  les aspects techniques de l’application.
 Le défi principal, c’était d’expliquer les aspects techniques à un public non technique. J’ai donc choisi de me concentrer sur l’expérience utilisateur, comment l’appli les aide au quotidien, sans entrer trop dans le code. Nous avons dû préparer des mots clés et des sujets à aborder durant les réunions, cela nous a permis de bien transmettre nos besoins et de récupérer les attentes de l’Aviron Agenais.
 
 

@@ -1,8 +1,8 @@
 # Flutter & Dart
 
 ## Définition
-**Flutter** est un framework open-source développé par Google, permettant de créer des **applications mobiles multiplateformes** à partir d’une seule base de code écrite en **Dart**. Grâce à son moteur graphique **Skia** et à son système de **widgets personnalisables**, Flutter offre une interface utilisateur **fluide, performante et réactive**.  
-Ce framework permet ainsi de **développer des applications natives** pour **Android, iOS, Windows, macOS et le web**, tout en garantissant une **expérience utilisateur homogène** et optimisée.
+ Flutter  est un framework open-source développé par Google, permettant de créer des  applications mobiles multiplateformes  à partir d’une seule base de code écrite en  Dart . Grâce à son moteur graphique  Skia  et à son système de  widgets personnalisables , Flutter offre une interface utilisateur  fluide, performante et réactive .  
+Ce framework permet ainsi de  développer des applications natives  pour  Android, iOS, Windows, macOS et le web , tout en garantissant une  expérience utilisateur homogène  et optimisée.
 
 Ce qui m’a attiré dans Flutter c’est de pouvoir faire le développement mobile et web dans un seul environnement, tout en conservant une performance égale à un développement classique. C’est pour cela que j’utilise cette technologie dès que j’ai besoin de faire du développement mobile.
 
@@ -20,8 +20,8 @@ Côté technique, j’ai optimisé les perfs en utilisant des composants comme L
 
 
 ###  Projet Flutter Miaou  
-Lors de mon **septième semestre**, j’ai fait le développement d’une **version Flutter** de l’application de **messagerie instantanée Miaou**, en utilisant le backend existant basé sur **Node.js et Socket.io**. Ce a été fait dans le cadre d’un cours sur Flutter.
-Ce projet m’a permis d’explorer **les spécificités de Flutter en gestion d’état** et **l’implémentation des WebSockets en Dart**.  
+Lors de mon  septième semestre , j’ai fait le développement d’une  version Flutter  de l’application de  messagerie instantanée Miaou , en utilisant le backend existant basé sur  Node.js et Socket.io . Ce a été fait dans le cadre d’un cours sur Flutter.
+Ce projet m’a permis d’explorer  les spécificités de Flutter en gestion d’état  et  l’implémentation des WebSockets en Dart .  
 
 Le BLoC m’a donné pas mal de difficultés au début. Mais en testant différentes approches et en structurant mieux le code (streams, séparation des logiques métier/UI), j’ai fini par obtenir une architecture plus propre et plus performante.
 Côté WebSocket, j’ai utilisé socket_io_client avec des StreamController pour gérer les connexions/déconnexions sans bloquer le thread principal. Même si le résultat était fonctionnel, je manque encore de recul pour construire une architecture scalable sur le long terme.

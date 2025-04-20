@@ -2,12 +2,12 @@
 
 ## Définition
 
-Le **travail en équipe** est une compétence clé qui permet d’**assurer la réussite d’un projet** en collaborant efficacement avec d’autres **développeurs, designers et clients**. Il repose sur plusieurs aspects fondamentaux qui favorisent une **dynamique de groupe productive** et une **bonne coordination des tâches**.  
+Le  travail en équipe  est une compétence clé qui permet d’ assurer la réussite d’un projet  en collaborant efficacement avec d’autres  développeurs, designers et clients . Il repose sur plusieurs aspects fondamentaux qui favorisent une  dynamique de groupe productive  et une  bonne coordination des tâches .  
 
 Les piliers du travail en équipe incluent :  
-- **L’adaptabilité aux méthodes de travail collectives**, en respectant les rôles et les contributions de chacun.  
-- **La gestion des conflits et la prise de décision collaborative**, afin d’assurer une progression fluide du projet.  
-- **L’écoute et l’échange constructif**, permettant d’intégrer les retours des autres et d’améliorer en continu les solutions proposées.
+-  L’adaptabilité aux méthodes de travail collectives , en respectant les rôles et les contributions de chacun.  
+-  La gestion des conflits et la prise de décision collaborative , afin d’assurer une progression fluide du projet.  
+-  L’écoute et l’échange constructif , permettant d’intégrer les retours des autres et d’améliorer en continu les solutions proposées.
 
 
 ## Mes Éléments de Preuve

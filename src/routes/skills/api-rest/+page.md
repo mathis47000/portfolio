@@ -2,11 +2,11 @@
 
 ## Définition
 
-Les **API REST** (Representational State Transfer) constituent un style d'architecture logicielle qui définit un ensemble de contraintes pour créer des services web. Elles permettent une communication stateless entre le client et le serveur, en utilisant des opérations standard telles que GET, POST, PUT et DELETE.
+Les  API REST  (Representational State Transfer) constituent un style d'architecture logicielle qui définit un ensemble de contraintes pour créer des services web. Elles permettent une communication stateless entre le client et le serveur, en utilisant des opérations standard telles que GET, POST, PUT et DELETE.
 
-**Node.js** est une plateforme JavaScript côté serveur qui permet de créer des applications réseau rapides et évolutives. Associé au framework **Express**, il facilite la création d'API REST performantes et modulaires.
+ Node.js  est une plateforme JavaScript côté serveur qui permet de créer des applications réseau rapides et évolutives. Associé au framework  Express , il facilite la création d'API REST performantes et modulaires.
 
-**Flask** est un micro-framework Python léger qui offre une grande flexibilité pour le développement d'API REST. Sa simplicité et sa modularité en font un choix privilégié pour des applications nécessitant une architecture minimaliste.
+ Flask  est un micro-framework Python léger qui offre une grande flexibilité pour le développement d'API REST. Sa simplicité et sa modularité en font un choix privilégié pour des applications nécessitant une architecture minimaliste.
 
 ## Mes Éléments de Preuve
 
@@ -18,7 +18,7 @@ Lors de ce projet j'ai dû sécuriser les endpoints de l'API pour protéger les 
 
 ### Projet Miaou
 
-Pour le projet **Miaou**, une application de messagerie instantanée, j'ai conçu le backend en utilisant **Node.js** avec le framework **Express**. Cette architecture a permis de gérer efficacement les communications en temps réel entre les utilisateurs en assurant une gestion fluide des messages et des salons de discussion.
+Pour le projet  Miaou , une application de messagerie instantanée, j'ai conçu le backend en utilisant  Node.js  avec le framework  Express . Cette architecture a permis de gérer efficacement les communications en temps réel entre les utilisateurs en assurant une gestion fluide des messages et des salons de discussion.
 
 L'un des défis majeurs de ce projet a été d'assurer un grand nombre d'utilisateurs simultanés. J'ai donc mis en place une architecture basée sur socket.io qui est une avancée dans ma découverte dans la technologie websocket. J’ai beaucoup appris de cette implémentation API rest avec en parallèle ce flux de données en temps réel.
 
