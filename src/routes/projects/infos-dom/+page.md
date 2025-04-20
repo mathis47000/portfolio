@@ -63,6 +63,14 @@ Ce projet m’a permis de  comprendre l’importance de l’authentification et 
 
 ---
 
+## Documents d'échanges
+
+<img src="../../../../Infos Dom-1.png">
+<img src="../../../../Infos Dom-2.png">
+<img src="../../../../Infos Dom-3.png">
+<img src="../../../../Info&apos;s Dom.docx-1.png">
+<img src="../../../../Info&apos;s Dom.docx-2.png">
+
 ## Principales Compétences Rattachées à cette Réalisation
 
 <script>
