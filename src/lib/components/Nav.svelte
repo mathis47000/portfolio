@@ -5,7 +5,7 @@
     { name: "Accueil", href: "/" },
     { name: "Réalisations", href: "/projects" },
     { name: "Compétences", href: "/skills" },
-    { name: "Expérience", href: "/experience" },
+    { name: "Mon Parcours", href: "/experience" },
     { name: "Contact", href: "/contact" },
   ];
 
