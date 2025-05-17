@@ -1,3 +1,27 @@
+
+<script>
+  import { Button } from 'flowbite-svelte';
+import Carousel from "$lib/components/Carousel.svelte";
+  const info = {
+    name: "Mathis Bescond",
+    role: "Développeur Full Stack (alternant)",
+    location: "Blagnac, France",
+    entreprise: "Capgemini",
+    photo: "moi.jpg" // Mets ici le chemin vers ta photo
+  };
+</script>
+
+<div class="max-w-xl mx-auto bg-white shadow-lg rounded-xl overflow-hidden p-4 flex items-center space-x-6">
+  <img src={info.photo} alt="Photo de profil" class="w-48 h-48 rounded-full object-cover shadow" />
+
+  <div class="flex flex-col space-y-1">
+    <h1 class="text-xl font-semibold">{info.name}</h1>
+    <p class="text-gray-600">{info.role}</p>
+    <p class="text-sm text-gray-500">{info.entreprise} • {info.location}</p>
+  </div>
+</div>
+
+
 ## Présentation
 
 Quand je commence quelque chose, j’ai du mal à lâcher tant que je ne l’ai pas compris ou terminé. C’est valable en développement comme ailleurs. Cela m’a notamment servi lors de mon alternance, où il m’a fallu plusieurs jours pour résoudre un bug sans message d’erreur, juste un chargement infini. Il s’agissait au final d’une simple annotation manquante. Ce genre de situation m'apprend à rester patient, rigoureux, et à ne pas lâcher tant que je n’ai pas compris la source du problème.
@@ -44,12 +68,11 @@ Que ce soit en codant, en jouant ou en patinant, j’aime apprendre par l’effo
 
 ---
 
-<script>
-  import { Button } from 'flowbite-svelte';
-</script>
-
-<Button pill href="/skills/" color="blue">Réalisations</Button>
-<Button pill href="/projects/" color="blue">Compétences</Button>
+## Mes Compétences
+  <!-- Carousel des Compétences -->
+  <a href="/projects/" class="w-full">
+    <Carousel/>
+  </a>
 
 
 
