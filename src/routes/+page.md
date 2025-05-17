@@ -1,6 +1,10 @@
 ## Présentation
 
-Actuellement en alternance chez Capgemini en tant que développeur full stack où je travaille pour une application d’organisation à la modification de modèle d’avion existant, c’est un projet très passionnant bien que très abstrait sur certains aspects. J’utilise principalement des frameworks JavaScript ainsi que Java, et je m'efforce d’améliorer mes compétences à travers mes expériences professionnelles. Mon objectif est de rester dans un domaine technique, où je peux continuer à coder ou à la limite continuer à être dans la conception d'applications au sens large.
+Quand je commence quelque chose, j’ai du mal à lâcher tant que je ne l’ai pas compris ou terminé. C’est valable en développement comme ailleurs. Cela m’a notamment servi lors de mon alternance, où il m’a fallu plusieurs jours pour résoudre un bug sans message d’erreur, juste un chargement infini. Il s’agissait au final d’une simple annotation manquante. Ce genre de situation m'apprend à rester patient, rigoureux, et à ne pas lâcher tant que je n’ai pas compris la source du problème.
+
+Actuellement en alternance chez Capgemini en tant que développeur full stack, je travaille sur une application d’organisation liée à la modification de modèles d’avions existants. C’est un projet passionnant, bien que parfois très abstrait sur certains aspects. J’utilise principalement des frameworks JavaScript ainsi que Java, et je m'efforce d’améliorer mes compétences à travers mes expériences professionnelles.
+
+Je suis assez autonome dans mon travail au quotidien, que ce soit pour ajouter une nouvelle page identique à une existante (comme une page pour un objet métier nommé CSO qui reprend celle du BCR), ou pour corriger des bugs de droits d'accès. Mais je sais aussi demander de l’aide quand le besoin se fait sentir.
 
 
 ## Mes valeurs
@@ -12,8 +16,15 @@ Le respect guide mes interactions avec les autres. Peu importe les idées ou cro
 
 ## Mon projet professionnel
 
-Au lycée, mon projet professionnel était encore flou : je savais que je voulais devenir ingénieur, mais sans spécialisation précise. C’est ma professeure de mathématiques qui m’a encouragé à explorer le domaine du numérique, voyant en moi des aptitudes que je ne soupçonnais pas. En approfondissant mes connaissances en programmation, j’ai rapidement réalisé que c’était ma voie. Aujourd’hui, je me spécialise dans le développement full stack. A moyen termes, j’aimerais intégrer une équipe de développeurs dans une PME mais rien ne m’oblige à aller aussi vite et peut-être rester quelque temps dans Capgemini pour préciser mes attentes.
+Aujourd’hui, je me spécialise dans le développement full stack. Ce que j’apprécie dans ce domaine, c’est la variété des problèmes à résoudre, du front au back, et la possibilité d’apprendre constamment de nouvelles choses. Par exemple, j’ai exploré par curiosité les technologies WebSocket en découvrant socket.io, ce qui m’a donné envie de creuser encore plus les applications en temps réel.
 
+J’aime beaucoup trop le côté technique, c’est là que je m’épanouis vraiment. Je ne m’interdis pas totalement d’évoluer vers d’autres rôles, mais ce n’est pas mon objectif à court terme. Je préfère rester sur la technique tant que je m’y sens bien.
+
+Je me vois bien rester quelque temps chez Capgemini si l’occasion se présente, ou bien rejoindre une structure à taille plus humaine. J’ai une préférence pour les PME : la hiérarchie y est souvent moins pyramidale, la communication plus directe, et les développeurs se sentent plus impliqués dans les projets.
+
+J’ai aussi eu l’occasion de défendre mon point de vue sur un ticket complexe. Je connaissais bien la partie du code concernée, mais j'avais du mal à comprendre où se situait le vrai problème. J’ai tout de même dû expliquer pourquoi certaines choses n’étaient pas des bugs, ce qui m’a obligé à bien structurer mes idées malgré l’incertitude. Ce genre de moment m’aide à progresser sur le plan relationnel et technique.
+
+Plus tard, si les technologies continuent à évoluer, je pourrais me diriger vers le développement mobile ou l’intelligence artificielle. Je me vois toujours dans le développement, mais ce n’est pas une certitude figée.
 
 ## Mes qualités humaines
 
@@ -25,8 +36,11 @@ La patience est une vertu précieuse, notamment en développement. Elle est indi
 ## Mes centres d’intérêt
 
 Les jeux vidéo occupent une place importante dans mon temps libre. Je suis particulièrement passionné par des titres comme *Elden Ring*, *Zelda* et *Professeur Layton*, qui stimulent ma logique, mon imagination et ma résilience. Chacun de ces jeux apporte un défi unique, la rigueur et l’apprentissage par l’échec dans *Elden Ring*, la créativité et la découverte dans *Zelda*, et la réflexion logique dans *Professeur Layton*.
+Je pense que ces jeux, aussi différents soient-ils, m'ont aidé à développer des réflexes que j’applique aujourd’hui naturellement dans ma façon de coder : tester, rater, recommencer, analyser.
 
 Je pratique également le roller au skatepark, une activité qui me procure une grande sensation de liberté et d’adrénaline. C’est un sport qui me pousse à repousser mes limites, tant physiques que mentales. La persévérance nécessaire pour réussir une figure après plusieurs échecs est une leçon que j’applique aussi dans mon travail, ne pas abandonner face aux difficultés et toujours chercher à s’améliorer.
+
+Que ce soit en codant, en jouant ou en patinant, j’aime apprendre par l’effort et repousser mes limites. C’est cette énergie que j’ai envie de mettre dans mes futurs projets professionnels.
 
 ---
 
