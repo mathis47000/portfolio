@@ -1,79 +1,90 @@
-# Microbio : Une Application Web pour le Suivi des Tâches et la Communication en Temps Réel
+# MicroBio : Une Application Web pour le Suivi des Tâches et la Communication en Temps Réel
 
 ## Présentation et Définition du Projet
- Microbio  est une application web développée au cours du  semestre 4  à l’école  Intech (Esiea)  en collaboration avec le même groupe que le projet  Androwing . Ce projet a été réalisé pour  Qsa Conseil , une entreprise spécialisée dans les analyses biologiques, qui avait besoin d’un outil efficace pour  optimiser la gestion interne . L’application permet un  suivi des tâches en temps réel  et propose une  fonctionnalité de chat en direct , facilitant la communication entre les employés.
+
+MicroBio est une application web développée durant le semestre 4 à l’ESIEA, dans le cadre d’un Projet Informatique en partenariat avec le laboratoire QSA Conseil, spécialisé en microbiologie alimentaire et basé à l’Agropole d’Agen. Ce projet a été réalisé avec le même groupe que celui du projet Androwing.
+
+L’objectif était de concevoir une solution numérique capable d’optimiser la gestion des tâches au sein du laboratoire, en remplaçant les outils informels comme les post-its, les tableurs ou les échanges de mails. J’ai participé à la création d’un outil collaboratif pensé pour fonctionner sur les écrans tactiles présents dans les laboratoires, mais aussi accessible depuis des postes de travail classiques.
+
+L'application devait répondre à des besoins métiers concrets : améliorer la lisibilité des priorités, permettre un suivi en temps réel des actions en cours, et intégrer une messagerie fluide pour centraliser les échanges. Travailler sur un cas réel m’a permis d’ancrer mes compétences techniques dans une problématique concrète, avec une attention particulière portée à l’ergonomie et à l'efficacité de l’interface.
 
 ## Objectifs
-L’objectif principal du projet était de concevoir une  application web dynamique  permettant de suivre l’avancement des tâches en temps réel de la même façon que trello pour les activités au sein du laboratoire. Pour cela, il était nécessaire de :
-- Mettre en place une  WebSocket simple  pour la synchronisation des tâches, sans utiliser de frameworks comme  socket.io .
-- Intégrer une fonctionnalité de  chat en direct  pour fluidifier les échanges entre collaborateurs.
-- Appliquer les bases de la méthodologie  Scrum , avec une gestion efficace des tâches et des  daily meetings  pour organiser le travail.
+
+Le projet visait à concevoir une application web full stack, accessible depuis un navigateur, capable d’assurer un suivi des tâches en temps réel et d’intégrer une messagerie instantanée fonctionnelle. L’une des principales contraintes techniques était d’implémenter un système WebSocket sans recourir à une bibliothèque préexistante comme socket.io, afin de comprendre en profondeur son fonctionnement.
+
+De mon côté, j’ai été en charge de développer l’essentiel du système de communication en temps réel, aussi bien pour l’affichage dynamique des tâches que pour le module de chat. C’était la première fois que je manipulais les WebSockets dans un projet concret, ce qui a demandé une montée en compétence rapide, notamment sur la gestion des flux entre le frontend Angular et le backend Java.
+
+Le travail s’est organisé selon une méthode agile, avec des réunions quotidiennes, des sprints courts, et des présentations intermédiaires. Chaque démonstration était l’occasion de confronter l’avancement technique à des retours concrets du client, ce qui a permis d’ajuster certaines priorités. J’ai également veillé à rendre l’application simple à prendre en main, intuitive, et adaptée à un public peu familier avec les outils numériques.
 
 ## Contexte
 
-Parmi l’ensemble des projets menés au cours de ma formation, MicroBio se distingue comme une expérience particulièrement marquante. Réalisé durant le quatrième semestre à l’ESIEA, ce projet s’inscrivait dans le cadre d’un Projet Informatique (PI), avec un enjeu concret et professionnalisant : répondre aux besoins d’un client réel, le laboratoire QSA Conseil, spécialisé en microbiologie alimentaire.
+MicroBio est le premier projet que j’ai réalisé dans le cadre de ma formation à l’ESIEA, après mon passage en IUT. Ce projet a marqué un tournant dans ma façon d’aborder le développement : il m’a permis de découvrir concrètement les méthodes agiles, de travailler pour un client réel et d’adopter une organisation plus rigoureuse et professionnalisante.
 
-Ce partenariat avec une structure externe nous a permis de sortir du cadre académique pour concevoir une application web sur mesure, pensée pour résoudre des problématiques métiers précises. Le projet visait à améliorer l'organisation quotidienne des laborantins, dans un environnement exigeant où temps, rigueur et ergonomie sont des paramètres essentiels.
+Le client, QSA Conseil, est un laboratoire indépendant spécialisé en microbiologie alimentaire, implanté à l’Agropole d’Agen. Avec plus de 50 000 analyses réalisées chaque année pour plus de 350 clients du secteur agroalimentaire, l’entreprise évolue dans un environnement où chaque tâche doit être exécutée avec rigueur, rapidité et traçabilité.
 
-QSA Conseil est un laboratoire indépendant fondé en 1993 et implanté à l’Agropole d’Agen. Il accompagne les professionnels de l’agroalimentaire grâce à des analyses microbiologiques précises, des audits réglementaires, et des formations adaptées. Avec près de 50 000 analyses par an pour plus de 350 clients, l’entreprise joue un rôle clé dans le contrôle sanitaire des produits alimentaires en France.
+Dès les premiers échanges, j’ai compris que la réactivité des interactions, la lisibilité des informations et l’instantanéité des mises à jour étaient des éléments clés pour les utilisateurs finaux. Ces contraintes ont directement influencé mes choix techniques, notamment le recours à une architecture en WebSocket, que je ne connaissais pas encore et que j’ai dû apprivoiser rapidement. Cette phase de montée en compétence a été l’un des défis majeurs du projet, mais aussi l’une des plus formatrices.
 
 ## Enjeux
 
+L’enjeu technique principal a été l’implémentation d’une WebSocket personnalisée, à la fois côté backend (Java Spring) et côté frontend (Angular), pour permettre la mise à jour instantanée des tâches et des messages du chat. J’ai pris en charge l’essentiel de cette intégration. C’était ma première expérience concrète avec la communication en temps réel sans recourir à une bibliothèque tierce comme socket.io. J’ai dû comprendre le fonctionnement bas-niveau de la WebSocket, structurer les messages échangés, et veiller à leur bon traitement de bout en bout.
 
-Sur le plan technique, le principal défi consistait à mettre en place une communication en temps réel entre les utilisateurs sans utiliser de bibliothèques spécialisées comme Socket.IO. Il a fallu concevoir et implémenter une architecture WebSocket robuste et performante, en maîtrisant les échanges entre le frontend Angular et le backend Java Spring, tout en assurant la synchronisation des tâches et des messages.
+Sur le plan humain, le projet m’a confronté à une dynamique de travail en équipe agile. Il a fallu s’organiser efficacement entre des profils aux compétences et aux rythmes variés. J’ai rapidement pris mes marques avec des outils comme Trello pour le suivi des tâches, et j’ai appris à gérer les points d’avancement réguliers, les revues de sprint, et la planification en itérations.
 
-L'enjeu humain était également important. Le travail en équipe demandait une organisation rigoureuse, une répartition claire des rôles et une bonne coordination, d’autant plus que les profils et les niveaux techniques étaient variés. La gestion de projet en mode agile, avec des revues fréquentes, des ajustements réguliers et une communication continue, a été essentielle à la réussite du projet.
-
-Enfin, la qualité logicielle représentait un autre enjeu central. Il fallait produire un code propre, structuré et maintenable, tout en respectant les délais imposés. Le contexte semi-professionnel et l’implication d’un client extérieur exigeaient un niveau d’exigence supérieur en termes de rigueur, de documentation et de fiabilité du produit final.
+La qualité du code était un autre enjeu fort. Il ne suffisait pas que l’application fonctionne : elle devait rester maintenable, claire et robuste dans le temps. J’ai donc porté une attention particulière à l’architecture, à la lisibilité des fonctions, et à l’isolation des composants métier. Ce souci de propreté dans le code m’a été utile à plusieurs reprises, notamment lors des ajustements de dernière minute avant les démonstrations.
 
 ## Risques
-Plusieurs risques ont été identifiés dès le début du projet. Le premier concernait l’adoption de l’application par les utilisateurs finaux, notamment dans un environnement professionnel déjà structuré où les habitudes étaient bien ancrées. Il y avait un réel danger que l’outil ne soit pas adopté si celui-ci était perçu comme trop complexe ou mal adapté aux besoins réels des laborantins. Cela aurait entraîné un rejet de la solution et un retour aux méthodes traditionnelles.
 
-Un autre risque majeur était lié à la performance de l’application. Dans un environnement de laboratoire, chaque seconde compte, et un outil trop lent ou avec des bugs récurrents risquait de nuire à l’efficacité du personnel. La gestion de la base de données MySQL et l’optimisation des requêtes SQL étaient cruciales pour éviter des lenteurs dans l’affichage des tâches ou des messages.
+L’un des premiers risques identifiés était le rejet de l’application par les utilisateurs finaux, si l’interface s’avérait trop complexe ou trop éloignée de leurs habitudes. Pour limiter ce risque, j’ai simplifié au maximum l’interface, en privilégiant des boutons clairs, une navigation directe et une hiérarchie visuelle forte, adaptée à une utilisation rapide sur écran tactile.
 
-Le troisième risque concernait l’intégration du chat textuel dans un environnement professionnel strictement réglementé. La communication en temps réel pouvait entraîner des problèmes de conformité, surtout si certains messages contenaient des informations sensibles ou importantes. Il était donc primordial d’implémenter ce chat de manière simple et non intrusive, tout en veillant à la sécurité et à la confidentialité des échanges.
+Un autre risque important concernait les performances. Dans un laboratoire, chaque seconde compte, et un outil trop lent ou instable peut nuire à l’efficacité du travail quotidien. J’ai donc veillé à optimiser les requêtes backend et la réactivité de l’interface Angular, notamment sur les flux WebSocket, afin d’assurer une expérience fluide, même avec un grand nombre de tâches affichées simultanément.
 
-Enfin, le dernier risque portait sur la gestion de projet en mode agile. La méthodologie exigeait une forte réactivité et des ajustements fréquents. Il y avait un risque de déviation du projet si les priorités n’étaient pas régulièrement réévaluées, notamment en raison de la complexité des tâches à réaliser et des retours constants du client.
+La gestion des échanges en temps réel représentait un troisième risque, notamment sur le plan de la confidentialité. Le module de chat que j’ai mis en place devait rester simple, mais fiable et sécurisé. J’ai fait en sorte que les messages ne soient ni perdus, ni affichés au mauvais destinataire, en structurant clairement les canaux et les règles d’affichage côté front et back.
+
+Enfin, la méthodologie agile était nouvelle pour moi. L’alternance entre développement, démonstrations régulières et ajustements permanents m’a obligé à adapter ma manière de travailler. Le principal risque, dans mon cas, était de mal gérer les priorités ou de me disperser dans les tâches techniques. J’ai appris à mieux estimer ma charge de travail et à recentrer mes efforts sur les fonctionnalités les plus utiles pour l’utilisateur final.
 
 ## Étapes du Projet
-### 1. Conception et Planification
-Avant de commencer le développement, nous avons pris le temps de définir les  fonctionnalités essentielles  de l’application. Il était indispensable d’assurer un  suivi des tâches en temps réel  et d’intégrer une  messagerie instantanée .
 
-En ce qui concerne les  technologies utilisées , nous avons opté pour :
--  Angular  pour le développement du frontend.
--  Java Maven  pour la gestion du backend et de la logique applicative.
--  WebSocket  pour assurer la communication en temps réel.
+Le projet a débuté par une phase de cadrage fonctionnel, où j’ai participé à la création des premières maquettes de l’interface et à l’identification des fonctionnalités prioritaires. J’ai utilisé Trello pour structurer les tâches et j’ai rédigé plusieurs user stories afin de mieux définir les besoins métiers du laboratoire. Cela m’a aidé à poser un cadre clair et à mieux anticiper les interactions à développer.
 
-### 2. Développement
-Le développement s’est déroulé en plusieurs étapes clés :
-- Mise en place de  l’architecture du projet  en Angular et Java Maven.
-- Intégration de  WebSocket  pour synchroniser les tâches et gérer la messagerie instantanée.
-- Développement du  frontend avec Angular , en exploitant les  Subjects  pour assurer une mise à jour fluide des données en temps réel.
-- Développement du  backend avec Java Maven , permettant de stocker et gérer les informations liées aux tâches et aux messages échangés.
+Mon travail s’est ensuite concentré sur l’implémentation de la WebSocket, à la fois côté backend en Java (Spring) et côté frontend avec Angular. Ce fut pour moi un vrai défi, car je découvrais cette technologie. J’ai mis en place la logique de communication temps réel pour les tâches, puis étendu ce mécanisme au module de chat. Cela impliquait de gérer finement les abonnements, les canaux, et les conditions d’envoi et de réception des messages, tout en assurant la stabilité et la réactivité de l’interface.
 
-### 3. Présentation du Projet
-En fin de projet, nous avons participé à une  journée de présentation  lors de laquelle nous avons présenté  Microbio  sur un stand décoré, à l’image de ce que nous avions fait pour  Androwing .
-Le projet a rencontré un franc succès et a obtenu la  première place  lors de l’évaluation finale.
+J’ai également pris part à l’architecture du frontend, en contribuant à la création et à l’organisation des composants Angular. J’ai travaillé à l’optimisation des flux de données, en utilisant les Subjects pour déclencher les mises à jour visuelles sans rechargement de la page.
 
+Tout au long du projet, plusieurs phases de test et de revue ont permis de repérer et de corriger des erreurs. J’ai notamment pris en charge la résolution de bugs critiques liés à l’actualisation en direct, qui entraînaient des affichages incohérents ou des retards dans la diffusion des messages.
+
+En fin de semestre, lors de la journée de présentation officielle, j’ai assuré la démonstration technique du fonctionnement de l’application, en expliquant en détail le système de synchronisation des tâches, le fonctionnement du chat et la structure globale de l’application. Le projet a été salué pour sa clarté, sa réactivité, et son utilité métier, et a obtenu la première place lors de l’évaluation finale.
 
 ## Acteurs et Interactions
-Nous avons bénéficié d’ échanges réguliers avec Qsa Conseil , qui nous a fourni des retours constructifs nous permettant d’adapter notre solution à leurs besoins réels.
 
+Le projet a été mené avec trois camarades, dans une organisation fluide où les rôles évoluaient selon les phases. Même si je n’étais pas en lien direct avec le client à chaque étape, j’ai systématiquement pris en compte les retours transmis par l’équipe pour adapter mes développements, en particulier sur les aspects visuels et fonctionnels de l’interface. La lisibilité de certains écrans a été retravaillée après des remarques portant sur la surcharge visuelle ou le positionnement des boutons.
+
+J’ai également échangé régulièrement avec les professeurs référents pour présenter l’état d’avancement technique, justifier certains choix d’architecture et obtenir des retours sur l’ergonomie. Ces interactions m’ont permis de mieux défendre mes décisions, d’apprendre à expliquer simplement des solutions techniques, et de prendre du recul sur mes pratiques.
+
+Dans les dernières semaines du projet, j’ai contribué à la rédaction de plusieurs livrables : un guide utilisateur expliquant les principales fonctionnalités de manière accessible, et une documentation technique décrivant le fonctionnement de la WebSocket, les points clés de l’architecture backend, et les composants Angular principaux. Ces documents ont servi de support lors de la démonstration finale.
 
 ## Résultats
-### Compétences Acquises
-Grâce à ce projet, j’ai pu  renforcer mes compétences en développement full stack , notamment dans l’intégration des  WebSockets  et la gestion des flux de données en  Angular . J’ai également acquis une  expérience concrète en méthodologie Scrum .
 
-### Impact
-L’application a été  très bien accueillie  lors des présentations et a démontré son  utilité pour l’entreprise cliente . Ce projet nous a permis de mettre en pratique des concepts avancés en développement web et de mieux comprendre la  gestion de projet agile .
+L’application a été testée avec succès dans le contexte de QSA Conseil. Les fonctionnalités principales – gestion des tâches en temps réel et messagerie instantanée – ont été perçues comme simples, efficaces, et bien adaptées au rythme de travail du laboratoire. L’interface épurée et les mises à jour automatiques ont facilité la prise en main, même pour les utilisateurs les moins familiers avec les outils numériques.
 
+Ces retours positifs ont confirmé la pertinence des choix techniques que j’avais faits, notamment sur la WebSocket développée sans bibliothèque tierce. J’ai pu constater concrètement que ce qui avait été complexe à implémenter devenait, une fois maîtrisé, un vrai atout pour l’usage final.
+
+Le projet a été présenté lors de la journée officielle de démonstration à l’école. La fluidité de la démonstration, la cohérence de l’interface et la réactivité du système ont été saluées par les jurys. L’équipe a obtenu la première place parmi les projets évalués ce jour-là, ce qui a renforcé ma confiance dans mes compétences et dans la capacité à livrer un projet complet, cohérent et utile.
 
 ## Mon Regard Critique
+
 ### Ma Valeur Ajoutée
-Dans ce projet, j’ai joué un rôle clé en assurant la  coordination et l’animation  de l’équipe en tant que  Scrum Master . J’ai également pris en charge le  développement des fonctionnalités en temps réel  avec  WebSocket , sans utiliser de framework préexistant, ce qui a constitué un véritable défi technique.
+
+J’ai joué un rôle central dans l’implémentation de la communication en temps réel, un des aspects techniques les plus sensibles du projet. J’ai développé la WebSocket à la fois côté backend (Java Spring) et côté frontend (Angular), sans m’appuyer sur des bibliothèques toutes faites. Ce travail m’a permis de maîtriser une technologie que je ne connaissais pas encore, tout en assurant sa stabilité et sa fluidité pour l’utilisateur final.
+
+Au-delà de ce module, j’ai également veillé à la cohérence technique globale du projet. J’ai contribué à identifier et corriger plusieurs bugs critiques liés à la synchronisation des tâches ou à la gestion des connexions simultanées. Ce souci du détail et de la fiabilité a participé à garantir une base de code stable, un critère essentiel dans un contexte semi-professionnel comme celui de QSA Conseil.
 
 ### Enseignements Tirés
-Ce projet m’a permis de mieux appréhender les  WebSockets  et leur intégration dans une  application full stack . J’ai également développé des  compétences avancées sur les Subjects Angular , qui sont essentiels pour gérer les flux de données en temps réel dans une application moderne.
+
+Ce projet m’a appris à sortir de ma zone de confort. J’ai dû apprendre à utiliser des technologies que je ne connaissais pas encore – comme les WebSockets – tout en assurant un niveau de fiabilité suffisant pour répondre à un besoin réel. C’était aussi la première fois que je participais à un projet full stack en autonomie, avec des enjeux concrets et un vrai client. J’ai donc appris à structurer mon travail, à prioriser les fonctionnalités, et à mieux organiser mon code.
+
+J’ai aussi renforcé mes compétences en Angular, en Java Spring, et dans la conception de flux temps réel. Mais au-delà de la technique, j’ai surtout compris l’importance de la lisibilité pour les utilisateurs finaux. Une interface claire, un bouton bien placé ou une information bien hiérarchisée peut faire toute la différence dans l’acceptation d’un outil.
+
+Enfin, j’ai découvert la rigueur que demande une gestion de projet agile : respecter les échéances, réagir vite aux retours, anticiper les imprévus. Ces contraintes, loin d’être un frein, m’ont aidé à adopter une posture plus professionnelle et plus efficace.
 
 ---
 ## Principales Compétences Rattachées à cette Réalisation
