@@ -5,7 +5,7 @@
 </script>
 
 <div
-  class="flex flex-col min-h-screen bg-[url('bg.jpg')] bg-center bg-cover bg-no-repeat bg-fixed"
+  class="flex flex-col min-h-screen bg-[url('/bg.jpg')] bg-center bg-cover bg-no-repeat bg-fixed"
 >
   <Nav />
 
