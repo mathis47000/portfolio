@@ -1,7 +1,9 @@
 # Info’s Dom : Une Application Mobile pour l'Accompagnement des Personnes Âgées et en Situation de Handicap
 
 ## Présentation et Définition du Projet
- Info’s Dom  est une application mobile développée en  Flutter  dans le cadre d’un projet étudiant, réalisé en collaboration avec une  entreprise d’architecture . L’objectif principal de ce projet était de proposer une  solution numérique intuitive  permettant aux professionnels de l’accompagnement des  personnes âgées et en situation de handicap  d’accéder facilement aux informations essentielles sur le domicile des bénéficiaires. Grâce à cette application, les professionnels peuvent mieux organiser leur intervention et offrir une assistance plus adaptée au quotidien.
+Info’s Dom est une application mobile développée en Flutter, conçue pour faciliter le quotidien des professionnels accompagnant des personnes âgées ou en situation de handicap. Ce projet a été réalisé de manière autonome, en lien avec une entreprise d’architecture ayant exprimé le besoin d’un outil numérique permettant un accès rapide et structuré aux informations essentielles sur les logements et les bénéficiaires.
+
+L’application se présente comme un outil de visualisation et de préparation d’intervention, permettant de connaître en amont les habitudes de vie, l’agencement des lieux et les besoins spécifiques d’un bénéficiaire, afin d’adapter au mieux l’accompagnement sur le terrain.
 
 ## Objectifs
 Le projet visait plusieurs objectifs clés afin de répondre aux besoins des professionnels de l’accompagnement. Tout d’abord, il était essentiel de  concevoir une application mobile fluide et intuitive , permettant aux utilisateurs de  visualiser rapidement les logements  et d’accéder aux  informations essentielles sur les bénéficiaires .

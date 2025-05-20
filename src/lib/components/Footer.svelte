@@ -15,7 +15,7 @@
   } from "flowbite-svelte-icons";
 </script>
 
-<Footer footerType="socialmedia">
+<Footer footerType="socialmedia" class="opacity-80 bg-white">
   <hr class="my-6 border-gray-400 sm:mx-auto" />
 
   <div class="sm:flex sm:items-center sm:justify-between px-6 pb-6">
