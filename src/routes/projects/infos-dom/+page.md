@@ -1,67 +1,96 @@
 # Info’s Dom : Une Application Mobile pour l'Accompagnement des Personnes Âgées et en Situation de Handicap
 
 ## Présentation et Définition du Projet
-Info’s Dom est une application mobile développée en Flutter, conçue pour faciliter le quotidien des professionnels accompagnant des personnes âgées ou en situation de handicap. Ce projet a été réalisé de manière autonome, en lien avec une entreprise d’architecture ayant exprimé le besoin d’un outil numérique permettant un accès rapide et structuré aux informations essentielles sur les logements et les bénéficiaires.
+Info’s Dom est une application mobile développée seul, en Flutter, dans le cadre d’un projet étudiant en partenariat avec une entreprise d’architecture. L’objectif était de concevoir un outil numérique à destination des professionnels intervenant auprès de personnes âgées ou en situation de handicap, afin de faciliter l’accès aux informations essentielles sur leur lieu de vie.
 
-L’application se présente comme un outil de visualisation et de préparation d’intervention, permettant de connaître en amont les habitudes de vie, l’agencement des lieux et les besoins spécifiques d’un bénéficiaire, afin d’adapter au mieux l’accompagnement sur le terrain.
+Le projet visait à offrir une interface simple et intuitive, consultable sur mobile, permettant de centraliser les données relatives au domicile des bénéficiaires : aménagement, équipements, habitudes de vie, liste de courses. L’ensemble devait améliorer la qualité des interventions et fluidifier leur organisation quotidienne.
 
 ## Objectifs
-Le projet visait plusieurs objectifs clés afin de répondre aux besoins des professionnels de l’accompagnement. Tout d’abord, il était essentiel de  concevoir une application mobile fluide et intuitive , permettant aux utilisateurs de  visualiser rapidement les logements  et d’accéder aux  informations essentielles sur les bénéficiaires .
+Mon objectif principal était de créer un prototype fonctionnel du frontend en Flutter, structuré et clair, pouvant servir de base à une future application professionnelle complète. Il s’agissait de :
 
-L’application devait inclure plusieurs  sections distinctes  pour organiser les données de manière claire et efficace :
--  Logement  : Une représentation 3D de l’intérieur et de l’extérieur du domicile.
--  Accès matériel (ménage et linge)  : Une visualisation des pièces et des équipements disponibles.
--  Habitudes de vie  : Une interface avec des cases à cocher pour sélectionner les activités préférées des bénéficiaires, comme les jeux de cartes, la télévision, ou la lecture.
--  Liste de courses  : Un module permettant d’ajouter, de modifier et de gérer les articles à acheter pour les bénéficiaires.
+- Concevoir une navigation fluide entre différentes sections métiers (logement, matériel, habitudes de vie, courses).
 
-Un autre objectif essentiel du projet était de  mettre en place un système de connexion sécurisé , avec une gestion des droits d’accès. Chaque utilisateur devait uniquement accéder aux informations pertinentes en fonction de son rôle.
+- Organiser les données de manière claire grâce à des composants personnalisés.
+
+- Proposer une structure d’authentification sécurisée, bien que non implémentée faute de backend.
+
+- Offrir un prototype utilisable en démonstration, respectant les besoins exprimés par la cliente.
+
+Chaque fonctionnalité a été pensée pour répondre à des besoins concrets exprimés lors de la première réunion, où la cliente a détaillé les cas d’usage.
 
 ## Contexte
-Ce projet a été conçu en réponse à une  demande spécifique  d’un  partenaire issu du domaine de l’architecture , qui souhaitait développer une solution numérique pour améliorer l’organisation des interventions des professionnels de l’accompagnement. Cette collaboration a nécessité une  réflexion approfondie  sur plusieurs aspects clés du développement d’une application mobile, notamment  l’ergonomie , la  sécurité des données , et  l’expérience utilisateur .
+Ce projet a été pour moi une première approche du développement mobile avec Flutter. Travaillant seul, j’ai découvert une nouvelle manière de concevoir des interfaces Android, à travers le prisme du développement cross-platform. L’absence d’équipe m’a amené à gérer moi-même l’ensemble de l’organisation du projet, depuis le suivi Git jusqu’à la conception visuelle et fonctionnelle de l’application.
+
+J’ai rencontré la cliente à trois reprises : une première fois pour recueillir les besoins, puis deux fois pour présenter mes avancées. Malheureusement, les échanges se sont arrêtés après la troisième réunion. Malgré cela, j’ai continué à avancer sur le projet en rendant visible mon travail à travers le dépôt Git, qui a fait office de livrable final.
 
 ## Enjeux
-La conception de cette application a soulevé plusieurs défis techniques et fonctionnels. L’un des principaux enjeux consistait à  assurer une navigation fluide et intuitive , afin que les professionnels puissent accéder rapidement aux informations essentielles sans perdre de temps. Il était également indispensable de  garantir un système de gestion des accès sécurisé , afin de limiter l’accès aux seules informations nécessaires pour chaque intervenant.
+Le premier enjeu était technique : développer une application entièrement en Flutter, sans backend, tout en garantissant une navigation claire et logique. Il fallait structurer les données de manière à pouvoir facilement connecter une base plus tard, sans avoir à revoir tout le code existant.
 
-En plus des aspects fonctionnels, le projet nécessitait de  trouver une identité visuelle cohérente , en définissant un  logo distinctif , un  jeu de couleurs harmonieux , et une  interface utilisateur épurée et accessible .
+Le second enjeu était organisationnel. J’ai dû tout gérer seul : les choix techniques, l’architecture, la communication avec la cliente, les démonstrations, la gestion de version. Cela m’a obligé à gagner rapidement en autonomie et à m’adapter à un cadre semi-professionnel avec un client réel.
+
+Enfin, je devais trouver des solutions élégantes pour simuler certaines fonctionnalités, notamment la gestion des utilisateurs et des accès, afin de donner une idée concrète du fonctionnement de l’application malgré l’absence de backend.
 
 ## Risques
-Comme tout projet de développement, Info’s Dom présentait certains  risques techniques  et  contraintes spécifiques . L’un des principaux défis résidait dans la  mise en place d’un système d’authentification sécurisé , qui devait être suffisamment robuste pour protéger les données sensibles des bénéficiaires. Une autre limitation importante était liée à l’absence de backend, ce qui a restreint le projet au  développement du frontend uniquement , rendant l’application  non fonctionnelle à 100 %  en l’état.
+L’un des principaux risques était l’abandon du projet par manque de retour client. C’est ce qui s’est produit après la troisième réunion, ce qui m’a forcé à continuer en autonomie sans feedback.
+
+L’autre difficulté était liée à la nature statique de l’application : sans backend, impossible de gérer de vraies données dynamiques, ce qui limitait les possibilités d’interaction.
+
+Enfin, le fait de travailler seul présentait un risque organisationnel : sans validation régulière, il était difficile de confirmer que l’application répondait à 100 % aux besoins exprimés. J’ai donc misé sur la clarté du code, la documentation, et la rigueur de la présentation pour rassurer sur la qualité du travail accompli.
 
 ## Étapes du Projet
-### 1. Conception et Planification
-La première étape du projet a consisté à  définir précisément les fonctionnalités essentielles de l’application , en étroite collaboration avec la cliente. Cette phase de conception a permis d’identifier les besoins spécifiques des utilisateurs finaux et d’adapter l’ergonomie de l’application en conséquence.
+### 1. Cadrage et Analyse des Besoins
+Le projet a commencé par une première réunion avec la cliente, une professionnelle du secteur de l’architecture. Lors de cet échange, elle m’a présenté un document contenant les maquettes fonctionnelles de base, centrées sur les informations essentielles à afficher dans les différentes pages. Ces maquettes étaient très simples, sans précisions sur le design ou les interactions, ce qui m’a laissé une grande liberté sur l’ergonomie et la structuration de l’application.
 
-Parallèlement, une  identité visuelle propre au projet  a été développée. Le logo conçu pour l’application représente  une maison stylisée avec quatre fenêtres , symbolisant  le lien entre le numérique et l’environnement du domicile . Un  jeu de couleurs basé sur le bleu et le blanc  a été choisi pour renforcer la lisibilité et offrir une expérience utilisateur apaisante.
+J’ai analysé les informations à intégrer et défini une structure d’application Flutter adaptée. Chaque section correspondait à un module : logement, matériel, habitudes, liste de courses, etc. J’ai pris soin de découper l’interface pour favoriser une organisation claire, pensée pour des professionnels de terrain.
 
-Enfin, un  schéma de navigation clair et structuré  a été élaboré, définissant les  différents accès utilisateurs  en fonction de leur rôle au sein de l’application.
+### 2. Mise en place du projet Flutter
+Le projet a été initié directement en Flutter. Je n’ai pas utilisé de solution de design UI externe, car aucune directive n’avait été donnée sur l’aspect visuel. J’ai donc fait le choix d’un style épuré et sobre, en accord avec le contexte professionnel de l’application. La navigation principale a été pensée en plusieurs vues, accessibles via une barre inférieure intuitive.
 
-### 2. Développement
-Le développement de l’application s’est déroulé en plusieurs phases distinctes :
--  Création du frontend avec Flutter , en mettant l’accent sur une interface fluide et accessible.
--  Développement des différentes pages  permettant aux utilisateurs de consulter les sections essentielles : logement, matériel, habitudes de vie et liste de courses.
--  Conception du modèle de données , en structurant les informations relatives aux bénéficiaires et à leur domicile.
+J’ai géré l’intégralité du code sur un dépôt Git personnel, en poussant régulièrement mes avancements entre chaque réunion. Cette gestion m’a permis de maintenir une trace claire de l’évolution du projet, tout en montrant à la cliente les différentes versions lors de nos échanges.
 
-### 3. Présentation du Projet
-À la fin du développement, le prototype de l’application a été présenté lors d’une  journée dédiée , où un  stand a été installé  pour exposer les avancées du projet. Cette présentation a été l’occasion d’ échanger avec la cliente , afin d’évaluer l’adéquation du prototype avec les  besoins réels du terrain .
+### 3. Développement des pages et gestion des données statiques
+Chaque page a été conçue indépendamment avec Flutter. J’ai rencontré quelques difficultés techniques au moment d’intégrer certaines listes, notamment à cause d’un mauvais usage entre ListView et ListView.builder. Ces erreurs m’ont poussé à mieux comprendre le fonctionnement du rendu dynamique dans Flutter.
+
+J’ai développé toutes les pages statiquement, en affichant des données types directement dans le code. Le module de "Liste de courses", par exemple, permet d’ajouter des articles, de les modifier ou de les supprimer, avec une logique locale de mise à jour de l’interface.
+
+### 4. Présentations intermédiaires et ajustements
+Deux autres réunions ont eu lieu pendant le développement. À chacune, j’ai présenté les avancées du prototype, en détaillant les nouvelles pages réalisées, les interactions possibles et la structuration choisie. Ces démonstrations ont permis à la cliente de suivre l’évolution du projet, même si les retours étaient assez succincts.
+
+Après la troisième présentation, je n’ai plus eu de retour de la part du commanditaire. L’application n’a donc pas pu évoluer vers une phase de tests ou d’intégration serveur. En revanche, j’ai continué à documenter mes choix et à maintenir un dépôt Git propre, remis à la fin du projet.
+
+### 5. Livraison
+Faute d’un backend ou d’un hébergement prévu, l’application n’a pas été publiée. Le projet a été livré sous forme de code source complet, accompagné d’un aperçu fonctionnel local, utilisable sur tout émulateur Flutter. Cette livraison comprenait :
+
+L’interface complète de navigation
+
+Les pages statiques fonctionnelles
+
+Les interactions locales (ex : gestion de liste, cases à cocher)
+
+Un code structuré, facilement extensible pour une future intégration avec un backend
 
 ## Acteurs et Interactions
-Le projet a été réalisé en  collaboration directe avec une entreprise d’architecture . La cliente a joué un rôle déterminant en fournissant des  retours réguliers , ce qui a permis d’ ajuster les fonctionnalités  et d’optimiser l’ergonomie de l’application en fonction des besoins des professionnels de l’accompagnement.
+Le projet s’est déroulé sans équipe, ce qui m’a permis d’expérimenter pleinement la gestion d’un projet individuel, avec tous les choix à ma charge. J’ai collaboré directement avec une cliente architecte, dont les retours ont orienté le projet au début. Chaque réunion m’a permis d’ajuster les éléments graphiques ou structurels, comme la place des modules ou l’intitulé des sections.
+
+Même si le projet n’a pas été poursuivi, ces échanges ont été enrichissants. Ils m’ont appris à écouter, reformuler des attentes, proposer des solutions réalistes, et défendre mes choix en tant que développeur.
 
 
 ## Résultats
-### Compétences Acquises
-Ce projet m’a permis de renforcer mes  compétences en développement mobile avec Flutter , en expérimentant plusieurs aspects de la conception d’une application. J’ai également acquis une meilleure compréhension des  principes de modélisation des données  et de l’importance de l’ expérience utilisateur (UX/UI)  dans un projet destiné à des professionnels.
+Le prototype livré contenait toutes les pages principales prévues, organisées dans une navigation fluide et logique. Chaque section était illustrée, parfois interactive, pour simuler un usage réel. L’application a été testée localement et partagée via Git.
 
-### Impact
-Bien que le projet n’ait pas été finalisé en raison de l’absence d’un backend, un  prototype fonctionnel du frontend  a été développé, permettant de naviguer entre les différentes sections. De plus, le  système de connexion sécurisé a été défini , même s’il n’a pas pu être implémenté dans sa totalité. Ce projet a également contribué à  mieux comprendre les défis liés aux applications manipulant des données sensibles .
+Malgré l’absence de backend, la démonstration a permis à la cliente d’avoir une vision concrète de la future application. Ce projet m’a aussi servi de première expérience de gestion complète d’un projet mobile, de la conception à la livraison.
 
 
 ## Mon Regard Critique
 ### Ma Valeur Ajoutée
-Dans ce projet, j’ai activement participé à  toutes les phases de conception et de développement , en prenant des décisions essentielles sur  l’ergonomie et la navigation . J’ai également assuré le  développement du frontend en Flutter , en structurant le projet de manière méthodique et rigoureuse.
+J’ai conçu l’ensemble du frontend, de l’arborescence de navigation jusqu’à la logique des écrans. J’ai également géré le dépôt Git, les réunions client, les démonstrations, et l’ensemble des échanges.
+
+Chaque écran a été pensé pour respecter les besoins exprimés, avec un soin particulier apporté à la clarté, à la hiérarchie visuelle, et à la possibilité d’évolution future.
 
 ### Enseignements Tirés
-Ce projet m’a permis de  comprendre l’importance de l’authentification et de la gestion des droits utilisateurs , surtout lorsqu’il s’agit de manipuler des  données sensibles . J’ai également acquis une  expérience précieuse dans la conception d’une interface intuitive , adaptée aux besoins d’un  public professionnel .
+Ce projet m’a appris à être autonome, à prendre des décisions techniques cohérentes, et à documenter rigoureusement mon travail. J’ai aussi découvert Flutter, et plus généralement le développement mobile cross-platform, avec ses spécificités et ses avantages.
+
+Même si le projet n’a pas abouti à un produit final, il m’a permis d’expérimenter une relation client réelle, de travailler avec rigueur, et de concevoir un outil structuré malgré l’absence de backend.
 
 ---
 
