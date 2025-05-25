@@ -5,7 +5,7 @@
   
  J’ai participé au développement d’Androwing, une application Android permettant aux rameurs du club d’Aviron Agenais d’enregistrer et de consulter leurs performances sportives. Le projet s’est déroulé durant mon semestre 5 à l’ESIEA et s’est étalé sur environ trois mois.
 
-Cette application avait pour but de remplacer des outils trop complexes ou génériques comme Strava, en proposant une solution sur mesure, intuitive, et facile à utiliser pour des utilisateurs non technophiles. Nous avons travaillé en équipe, avec une répartition des tâches assez claire entre le mobile, l’API et le système.
+Cette application avait pour but de remplacer des outils trop complexes ou génériques comme Strava, en proposant une solution sur mesure, intuitive, et facile à utiliser pour des utilisateurs non technophiles. J’ai travaillé en équipe, en me concentrant principalement sur le développement mobile et l’intégration de l’API.
 ## Objectifs
 L’objectif principal était de créer un outil simple, efficace, et accessible pour suivre les performances sportives des membres du club. Je devais permettre à un utilisateur de consulter ses données (temps, distance, vitesse) mais aussi de visualiser ses évolutions.
 
@@ -14,7 +14,7 @@ J'ai utilisé Java pour le développement Android, Flask pour l’API, et Postgr
 Au-delà des aspects techniques, l’enjeu majeur était de comprendre les attentes du client (le président du club) et de faire des choix adaptés à des utilisateurs réels, peu familiers avec les applications sportives classiques.
 
 ## Identité visuelle
-Pour donner à Androwing une identité reconnaissable, nous avons aussi réfléchi à un logo et une charte graphique cohérente. L’idée était de mêler univers sportif et référence technologique. Le logo représentait un robot Android stylisé en rameur, avec une posture évoquant l’effort et la coordination. Les couleurs reprenaient celles du club Aviron Agenais : un bleu pour rappeler l’eau et un vert vif associé à la mascotte Android.
+Pour donner à Androwing une identité reconnaissable, j’ai également participé à la conception du logo et à la définition d’une charte graphique cohérente. L’idée était de mêler univers sportif et référence technologique. Le logo représentait un robot Android stylisé en rameur, avec une posture évoquant l’effort et la coordination. Les couleurs reprenaient celles du club Aviron Agenais : un bleu pour rappeler l’eau et un vert vif associé à la mascotte Android.
 Cette identité visuelle a été utilisée pour nos supports de présentation, les écrans de l’application, et même l’habillage de notre stand final. Elle a permis de créer un lien fort entre l’application et son environnement réel.
 
 ### Logo
@@ -23,13 +23,13 @@ Cette identité visuelle a été utilisée pour nos supports de présentation, l
 ## Contexte
 Pour ce projet, j’ai travaillé en équipe avec trois autres étudiants, chacun ayant des affinités techniques différentes. L’école nous laissait une certaine liberté dans le choix de la stack, tant que nous respections un cadre professionnel : travailler avec un vrai client, livrer une solution fonctionnelle, et présenter régulièrement nos avancées. Notre client, l’association Aviron Agenais, était particulièrement investi, ce qui a rendu l’expérience encore plus engageante.
 
-Dès les premières réunions, j’ai compris que leur demande allait bien au-delà d’un simple outil de suivi d’entraînement. Ils voulaient une application mobile simple, fiable, accessible sans formation, qui puisse être utilisée immédiatement après une session de rame. Cette exigence de clarté et d’efficacité nous a naturellement orientés vers le développement d’une application native Android, connectée à un backend aussi léger que possible, basé sur Flask.
+Dès les premières réunions, j’ai compris que leur demande allait bien au-delà d’un simple outil de suivi d’entraînement. Ils voulaient une application mobile simple, fiable, accessible sans formation, qui puisse être utilisée immédiatement après une session de rame. Cette exigence de clarté et d’efficacité m'a naturellement orientés vers le développement d’une application native Android, connectée à un backend aussi léger que possible, basé sur Flask.
 
 J’ai rapidement perçu l’importance d’impliquer le client à chaque étape. Lors de notre première démonstration, notre API n’était pas encore prête. Pour pouvoir présenter quelque chose, j’ai simulé les données côté Android. Ce moment m’a appris à ne pas attendre que tout soit parfait pour tester une idée ou recueillir un retour utilisateur.
 
 Ces échanges réguliers m’ont permis de sortir d’une posture purement technique. À plusieurs reprises, j’ai dû revoir certaines idées de fonctionnalités. Par exemple, nous avions initialement imaginé des graphiques très détaillés, avec des courbes empilées, des filtres avancés, etc. Le client, lui, nous a recadrés très simplement : il voulait voir la distance parcourue, le temps, et une progression claire. Ce retour m’a appris à construire avec l’utilisateur, et pas juste pour lui.
 
-L’un des moments les plus marquants du projet a été la mise en production simulée sur un serveur Fedora. Aucun de nous n’avait de réelle expérience dans ce domaine, et il a fallu collaborer avec des étudiants en spécialité réseau pour comprendre comment faire fonctionner notre backend en environnement réel. C’était parfois chaotique — je me souviens d’un bug spécifique au serveur, lié à un mauvais chemin de fichier dans la configuration Android, qui nous a bloqués pendant des heures. On l’a finalement corrigé à trois, en séance de projet, dans une sorte de session de debugging collective improvisée. Ça reste pour moi un vrai souvenir de collaboration technique efficace.
+L’un des moments les plus marquants du projet a été la mise en production simulée sur un serveur Fedora. Aucun de nous n’avait de réelle expérience dans ce domaine, et il a fallu collaborer avec des étudiants en spécialité réseau pour comprendre comment faire fonctionner notre backend en environnement réel. C’était parfois chaotique — je me souviens d’un bug spécifique au serveur, lié à un mauvais chemin de fichier dans la configuration Android, qui nous a bloqués pendant des heures. Je l’ai finalement corrigé avec deux camarades, en séance de projet, dans une sorte de session de debugging collective improvisée. Ça reste pour moi un vrai souvenir de collaboration technique efficace.
 
 Tout au long du projet, cette dynamique de retours réguliers et de confrontation à un usage réel m’a permis de progresser. Elle m’a surtout appris à garder le cap sur ce qui compte vraiment : livrer une application utile, utilisable, et utilisée.
 
@@ -53,7 +53,7 @@ Pour poser les bases du projet, j’ai réalisé des maquettes rapides, principa
 
 J’ai aussi pris l’initiative de mettre en place un Trello, que j’ai organisé selon les phases du projet et les priorités des fonctionnalités. J’y ai rédigé des user stories pour clarifier le point de vue utilisateur et faciliter la répartition des tâches : par exemple, "en tant qu’adhérent, je veux voir mon classement hebdomadaire dans mon club", ou "en tant qu’entraîneur, je veux pouvoir modifier les données d’un rameur".
 
-Concernant les  technologies utilisées , nous avons choisi :
+Concernant les  technologies utilisées, j'ai travaillé avec les technologies suivantes:
 -  Java Android  pour le développement du frontend mobile.
 -  Python Flask  pour la création du backend et de l’API REST.
 -  Retrofit  pour permettre la récupération des données depuis le backend vers l’application mobile.
@@ -79,7 +79,7 @@ Pendant l’événement, j’ai assuré une grande partie des démonstrations te
 Le jury a apprécié la clarté du parcours utilisateur, l’identité visuelle bien intégrée, et la cohérence technique entre les différentes briques du projet. On a terminé dans le top 5 sur 14 projets présentés, ce qui était une belle reconnaissance.
 
 ## Acteurs et Interactions
-J’ai travaillé sur ce projet en collaboration avec trois camarades, avec qui nous avons réparti les responsabilités selon nos compétences respectives. De mon côté, j’ai été souvent en lien direct avec les membres de l’association Aviron Agenais. Ces échanges réguliers nous ont permis de mieux comprendre leurs attentes, de reformuler certains besoins et surtout d’adapter nos choix fonctionnels et ergonomiques en conséquence.
+J’ai travaillé sur ce projet en collaboration avec trois camarades, avec qui j’ai partagé les responsabilités avec mes camarades selon nos compétences respectives. De mon côté, j’ai été souvent en lien direct avec les membres de l’association Aviron Agenais. Ces échanges réguliers nous ont permis de mieux comprendre leurs attentes, de reformuler certains besoins et surtout d’adapter nos choix fonctionnels et ergonomiques en conséquence.
 
 Cette collaboration client a été très formatrice : elle m’a appris à poser les bonnes questions, à écouter activement, et à faire des compromis techniques pour répondre à un usage réel. Les retours qu’ils nous ont faits, parfois très concrets, ont clairement orienté certaines décisions, comme la simplification des graphiques ou le choix d’une interface mobile épurée.
 
@@ -100,7 +100,7 @@ Au-delà des aspects techniques, ce projet m’a permis d’appliquer une démar
 ### Livrables remis
 À la fin du projet, nous avons rédigé plusieurs livrables pour faciliter l’exploitation et la reprise du projet. J’ai participé à la rédaction d’un petit guide utilisateur à destination des membres du club, expliquant comment s’inscrire, enregistrer une séance, ou participer à un challenge.
 
-Nous avons aussi fourni une documentation technique décrivant l’API, les schémas de la base MySQL, les routes principales, ainsi qu’un guide de déploiement pour l’hébergement sur Fedora. Cela permet au club ou à un futur développeur de pouvoir faire évoluer l’application si besoin.
+J'ai aussi fourni une documentation technique décrivant l’API, les schémas de la base MySQL, les routes principales, ainsi qu’un guide de déploiement pour l’hébergement sur Fedora. Cela permet au club ou à un futur développeur de pouvoir faire évoluer l’application si besoin.
 
 ## Mon Regard Critique
 ### Ma Valeur Ajoutée
