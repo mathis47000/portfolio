@@ -9,7 +9,7 @@
 ### Projet Androwing
 
 Lors du développement de l'application  Androwing , j'ai utilisé Java pour créer une application Android dédiée à l'enregistrement des performances sportives lors des séances de  rameurs.
-Pour assurer une communication efficace entre l'application et le backend développé en Flask, j'ai intégré la bibliothèque  Retrofit . Cette expérience m'a permis de maîtriser la gestion des appels réseau asynchrones sur une plateforme mobile, garantissant ainsi une synchronisation fluide des données des utilisateurs. J’ai eu plus de mal à implémenter la logique données pour chaques écrans mais cela m’a permis de progresser.
+Pour assurer une communication efficace entre l'application et le backend développé en Flask, j'ai intégré la bibliothèque  Retrofit . Cette expérience m'a permis de maîtriser la gestion des appels réseau asynchrones sur une plateforme mobile, garantissant ainsi une synchronisation fluide des données des utilisateurs. J’ai eu plus de mal à implémenter la logique données pour chaque écran mais cela m’a permis de progresser.
 
 ### Projet Microbio
 
