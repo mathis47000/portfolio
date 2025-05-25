@@ -27,17 +27,18 @@ C’est sur ce projet que j’ai mis en place les WebSockets “à la main” (s
 
 ## Mon Autocritique
 
-Je considère aujourd’hui avoir un niveau confirmé en Angular. J’ai touché à pas mal d’aspects : routing, formulaires, gestion d’état, services partagés, WebSockets, etc.
-Mais j’ai encore une marge de progression sur l’optimisation des performances, notamment en maîtrisant toutes les fonctions de lifecyle et en structurant mieux mon code.
-Angular est une technologie très présente dans l’univers professionnel, notamment dans les secteurs réglementés comme la santé ou la banque, qui exigent des solutions robustes, testables et bien documentées. Il m’a permis d’adopter une approche orientée architecture et très stricte, que je retrouve aujourd’hui dans d’autres aspects de mes projets.
-Un conseil que je retiens de mon usage d’Angular est qu’il ne faut pas l’utiliser par défaut pour tout type de projet. Il est très performant dans des environnements complexes, mais se devient souvent trop lourd pour des projets simples où des alternatives comme Vue.js ou Svelte sont plus adaptées. 
+Je me considère aujourd’hui comme à l’aise avec Angular. Je maîtrise les bases (routing, services, communication inter-composants, formulaires) ainsi que des aspects plus avancés comme RxJS, la gestion d’état légère, et la consommation d’API REST.
+
+Cependant, je vois encore des axes d’amélioration sur la lisibilité du code à grande échelle, la structuration en modules avancés, et l’optimisation des performances. Par exemple, je n’ai pas encore utilisé d’outils comme ChangeDetectionStrategy ou OnPush dans un vrai projet, et je sais que ça peut faire une vraie différence à terme.
+
+Angular m’a aussi appris qu’un bon framework peut pousser à mieux penser l’architecture, mais qu’il ne faut pas l’utiliser “par défaut” : pour des projets simples ou des interfaces légères, je préfère désormais des solutions comme Svelte ou même du Vanilla JS structuré.
 
 
 ## Mon Évolution dans cette Compétence
 
-Je prévois d’approfondir mes compétences en Angular en explorant Nx qui permet de mieux gérer les monorepos Angular et d’améliorer la scalabilité des applications complexes.  
+Pour continuer à progresser, je souhaite découvrir Nx pour mieux gérer les projets Angular en monorepo, structurer les gros projets et gagner en scalabilité. Je compte aussi m’initier à la mise en place de tests unitaires et end-to-end dans Angular, en utilisant Jasmine et Cypress.
 
-Je suis régulièrement les mises à jour officielles d’Angular et j’explore les bonnes pratiques Angular via des formations avancées et des contributions à des projets open-source.  
+Je prévois également de comparer Angular à d’autres solutions frontend modernes dans le cadre de projets personnels ou professionnels, pour être capable de recommander la bonne stack en fonction du besoin. Enfin, je reste attentif aux évolutions du framework et à ses nouvelles pratiques, via les changelogs officiels et quelques créateurs de contenu spécialisés.
 
 ---
 ## Principales Réalisations Rattachées

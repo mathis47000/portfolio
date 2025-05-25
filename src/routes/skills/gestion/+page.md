@@ -38,13 +38,22 @@ La  difficulté principale  de ce projet était la nécessité d’ ajuster cons
 
 ## Mon Autocritique
 
-Aujourd’hui, je me situe à un niveau intermédiaire-avancé. J’ai acquis des réflexes solides en coordination, planification et priorisation, notamment à travers des projets avec des équipes pluridisciplinaires. Cependant, je sens encore des limites dans la gestion des imprévus et des risques, surtout dans les projets longs ou avec des clients aux besoins changeants. J’ai par exemple constaté lors d’Info’s Dom que le manque d’anticipation des changements pouvait entraîner des surcharges avant une nouvelle réunion. J’aimerai ne pas perdre cette compétence mais je la pratique plus beaucoup du fait que dans mon alternance je suis uniquement dévellopeur.
+Je me situe aujourd’hui à un niveau intermédiaire à avancé en gestion de projet. J’ai acquis de bons réflexes en organisation, priorisation et coordination d’équipe. Sur plusieurs projets étudiants, j’ai su animer des réunions, répartir les tâches, ajuster les plannings, et tenir compte des contraintes de chacun.
+
+Cependant, je sens que ma pratique reste encore trop centrée sur un cadre académique. Dans mon alternance actuelle, je n’ai pas l’occasion de piloter des projets, étant uniquement sur un rôle de développeur. Cela rend plus difficile le maintien de cette compétence dans un contexte professionnel réel. J’ai aussi conscience que ma gestion des imprévus ou des demandes changeantes pourrait être plus rigoureuse. Par exemple, sur Info’s Dom, certains ajustements demandés tardivement m’ont mis en difficulté, faute d’avoir suffisamment anticipé les conséquences sur le planning.
+
+Malgré cela, je garde une vision claire de l’intérêt de cette compétence dans ma progression, notamment si je suis amené à travailler dans des contextes plus autonomes ou à évoluer vers un rôle de lead.
 
 
 ## Mon Évolution dans cette Compétence
 
-Je souhaite  mieux formaliser la documentation projet  afin de  faciliter la passation d’informations , notamment en utilisant des outils de gestion comme  Notion, Confluence ou Jira  pour centraliser et structurer les données.  
-Je continue à me former sur les  meilleures pratiques en gestion de projet agile , en suivant des formations à Capgemini.
+Je souhaite continuer à progresser dans la gestion de projet, même si ce n’est pas au cœur de mes missions actuelles. Pour cela, je vais m’appuyer sur plusieurs leviers concrets :
+
+Je veux mieux structurer mes projets personnels ou side-projects, en appliquant des outils et méthodes vus en contexte scolaire. Cela passe par l’utilisation de Notion ou Jira pour documenter les étapes clés, formaliser les priorités, et garder un historique clair des décisions.
+
+Je souhaite également m’appuyer sur les ressources internes de Capgemini, en suivant des formations complémentaires proposées en gestion de projet agile ou en pilotage technique. Cela me permettra de rester à jour, même en l’absence de pratique directe.
+
+Enfin, dès que l’occasion se présentera, je proposerai de coanimer un point d’avancement ou de prendre en main une partie de l’organisation d’une fonctionnalité dans mon équipe. Même à petite échelle, cela me permettra de continuer à m’exercer sur cette compétence que je souhaite conserver.
 
 
 ---

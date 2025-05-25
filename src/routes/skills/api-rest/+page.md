@@ -28,19 +28,19 @@ J’ai aussi pris le temps de traiter les erreurs de connexion côté mobile pou
  Et je n’ai pas eu de grand problème du fait de mon expérience sur le projet Miaou mais je regrette le peu de temps alloué à ce projet qui ne me permet pas une structure optimale.
 
 ## Mon Autocritique
+Je me considère aujourd’hui à l’aise dans la conception d’API REST simples à intermédiaires. J’ai développé des réflexes sur la structuration des routes, la gestion des erreurs, et l’interfaçage avec des bases de données. Je commence aussi à intégrer des notions de sécurité comme les tokens ou la séparation des rôles.
 
-Aujourd’hui je me sens à l’aise pour développer des API REST en Node.js et Flask, que ce soit sur des petits projets ou des applications un peu plus ambitieuses.
-Je commence aussi à prendre en compte la sécurité (authentification, gestion des droits), mais c’est un point que je veux continuer à creuser, notamment avec OAuth2 et d’autres méthodes plus avancées.
+Mais je sais que je peux aller plus loin, notamment sur les aspects de performance (caching, pagination, optimisation SQL) et sur des notions comme les middlewares avancés, la validation automatique de schémas ou la gestion de la montée en charge. Je manque aussi encore de recul sur le versionnage et la maintenance d’une API sur le long terme.
 
-Côté performance, je vois encore pas mal de choses à travailler comme la gestion de la concurrence ou la réduction de la latence, surtout si je travaille sur une API qui monte en charge.
-
-C’est une compétence que je retrouve partout dans mes projets, et que je considère comme centrale aujourd’hui. Presque tout passe par une API REST, donc savoir en faire une propre, lisible et sécurisée, c’est devenu essentiel.
+Enfin, je pense que je peux progresser dans l’automatisation des tests d’API et la documentation dynamique.
 
 ## Mon Évolution dans cette Compétence
 
-Je pense me pencher bientôt sur NestJS, un framework basé sur Node mais bien plus structuré qu’Express. Il impose une vraie organisation modulaire, ce qui est parfait pour les gros projets.
+Pour faire évoluer mes compétences, je souhaite apprendre à structurer mes projets backend de manière plus professionnelle. Je compte explorer NestJS pour bénéficier d’une architecture modulaire, rigoureuse et plus adaptée à de gros projets.
 
-Je compte aussi approfondir la documentation d’API avec Swagger, automatiser les tests et mieux gérer le déploiement via Docker, pour rendre mes API vraiment pro, de bout en bout.
+Je veux aussi approfondir la documentation automatique avec Swagger ou Postman, mettre en place des tests unitaires et fonctionnels pour mes routes, et utiliser Docker pour rendre mes API facilement déployables.
+
+L’objectif est de passer d’une API fonctionnelle à une API maintenable, testée, sécurisée et prête à être utilisée en production sans friction.
 ---
 ## Principales Réalisations Rattachées
 

@@ -33,16 +33,21 @@ Les points de friction sont surtout venus des droits d'accès et de la compatibi
 
 ## Mon Autocritique
 
-Ces projets m’ont permis de tester plusieurs solutions de stockage local, en fonction des besoins réels. J’ai compris l’intérêt d’adapter l’outil à la plateforme, au volume de données et à la structure.
+Ces projets m’ont permis d’expérimenter plusieurs solutions de stockage local, en les adaptant à la plateforme et au besoin fonctionnel. J’ai appris à faire des choix techniques en fonction du volume, de la nature des données et des contraintes d’accès hors-ligne.
 
-Mais il m’est arrivé de faire des erreurs, notamment en stockant un token dans le Local Storage au début, ce qui ouvrait la porte à des failles XSS. Cette erreur m’a vraiment sensibilisé à la sécurité des données stockées localement.
+Cela dit, j’ai aussi rencontré certaines limites : mauvaise structuration de modèles sur IndexedDB au départ, erreurs de gestion de cycle de vie avec SQLite, ou encore des usages de stockage peu sécurisés (comme l’enregistrement d’un token dans Local Storage). Ces erreurs m’ont fait progresser, notamment sur les bonnes pratiques de persistance et la sensibilité des données en local.
 
-Autre point à améliorer était  la gestion de la synchronisation entre local et distant, surtout sur des projets plus dynamiques. Je commence à mieux structurer mes modèles de données pour limiter les conflits, mais il reste du travaille.
+Je sais aujourd’hui configurer et exploiter chaque outil de manière fonctionnelle, mais je peux encore progresser dans la gestion de la synchronisation, la mise en place de stratégies de cache, ou le chiffrement local pour sécuriser certaines données sensibles.
 
 ## Mon Évolution dans cette Compétence
 
-Je souhaite continuer à explorer des solutions plus sécurisées avec du chiffrement local par exemple, pour mieux anticiper les risques.
-Je compte aussi affiner mes logiques de cache, de synchronisation et d’optimisation, surtout pour des applis plus sensibles.
+Je souhaite approfondir l’utilisation de systèmes de stockage hybride, en combinant des solutions locales et distantes de manière fluide. Cela inclut la mise en place de stratégies de cache plus avancées, comme la gestion différée des mises à jour ou l’actualisation automatique des données en arrière-plan.
+
+J’envisage aussi d’implémenter des mécanismes de synchronisation plus robustes. Par exemple, en développant une file d’attente locale des actions à synchroniser, capable de détecter les conflits et de reprendre automatiquement après une déconnexion.
+
+Je veux également m’initier à des solutions de chiffrement local afin de mieux sécuriser les données sensibles côté client, en particulier pour les applications de santé, sociales ou professionnelles.
+
+Pour progresser sur ces sujets, je compte continuer à expérimenter dans mes projets personnels, en documentant les problèmes rencontrés et en testant plusieurs approches. Cela me permettra de gagner en maturité sur les décisions techniques et d’améliorer la fiabilité des applications manipulant des données locales.
 ---
 ### Principales Réalisations Rattachées
 

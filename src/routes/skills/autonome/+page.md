@@ -50,9 +50,11 @@ Pour progresser rapidement, il est essentiel de ne pas avoir peur d’expérimen
 
 ## Mon Évolution dans cette Compétence
 
-Je souhaite approfondir  NestJS  pour le développement backend et explorer des  bases de données avancées  afin d’ optimiser les performances  de mes applications.  
+Pour continuer à progresser en autonomie, je cherche à structurer davantage mes apprentissages. J’ai commencé à utiliser des outils comme Notion ou Obsidian pour organiser ma veille, noter mes erreurs et garder une trace des solutions que je trouve. Cela me permet de consolider ce que j’apprends au fil des projets.
 
-Je poursuis mon apprentissage dans différentes technologie en suivant des vidées, en participant à des challenges de programmation et en réalisant des projets personnels pour tester de nouvelles technologies.
+J’essaie aussi de varier mes sources : je ne me limite plus à la documentation ou aux tutoriels vidéo, mais je consulte désormais des forums, des articles de blog, et j’analyse aussi du code open-source. Mon objectif est de développer une approche plus critique : ne pas juste appliquer, mais comprendre pourquoi une solution fonctionne, et dans quel contexte elle est pertinente.
+
+À plus long terme, j’aimerais me confronter à des environnements plus complexes ou moins documentés, comme contribuer à un projet open-source ou monter une API sans framework, pour apprendre à apprendre dans des situations réelles, sans filet. Ce sont ces contextes exigeants qui, je pense, permettent de renforcer réellement l’autonomie.
 
 ---
 

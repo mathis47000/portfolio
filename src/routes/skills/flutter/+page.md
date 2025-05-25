@@ -30,20 +30,26 @@ Ce projet m’a vraiment permis de progresser sur Flutter, mais m’a aussi mont
 
 ## Mon Autocritique  
 
-Mon niveau actuel en Flutter est intermédiaire. Je maîtrise bien les bases (navigation, widgets, performance) ainsi que des aspects plus avancés comme la gestion d’état avec BLoC, les animations et aussi la consommation d’API REST et WebSocket.
+Je considère mon niveau en Flutter comme intermédiaire solide. J’ai déjà développé plusieurs écrans complexes, géré le stockage local, utilisé des WebSockets, et exploré des approches comme BLoC pour la gestion d’état.
 
-Je souhaite approfondir ma connaissance d’architectures plus modulaires et testables, comme celle de Riverpod ou Clean Architecture, pour faciliter la maintenance de projets à plus grande échelle.
-Je réalise également que certains choix faits lors de mes premiers projets auraient pu être mieux pensés avec une meilleure anticipation comme sur le découpage des intéractions et échanges de données.
+Cela dit, je sens encore des limites dès qu’il s’agit d’architecture évolutive : j’ai parfois du mal à structurer proprement mes projets dès le départ, notamment quand il faut séparer logique, données, UI, etc. Par exemple, sur Flutter Miaou, le code était fonctionnel mais difficile à maintenir, car certaines responsabilités étaient mal réparties.
 
-Flutter reste une technologie stratégique pour moi, car elle permet de livrer vite, bien et sur plusieurs plateformes. Mais je remarque aussi que Google semble un peu ralentir le rythme des nouveautés, ce qui me fait rester prudent sur son adoption à long terme.
+Je remarque aussi que je pourrais mieux exploiter les animations, les tests, et les outils de debug propres à Flutter. C’est souvent par manque de temps ou d’anticipation que je les laisse de côté.
+
+Malgré tout, Flutter est une techno que j’apprécie, car elle me permet de livrer rapidement un prototype fluide, ce qui est un vrai avantage quand je travaille seul ou dans un cadre pédagogique.
+
+
 
 
 ## Mon Évolution dans cette Compétence  
 
-J’aimerais continuer à progresser en Flutter, surtout si j’ai l’occasion de bosser sur un projet professionnel d’envergure.
-Je continue à suivre la documentation officielle, des tutos avancés et je reste attentif aux évolutions de l’écosystème même si ça stagne un peu côté Google en ce moment.
+Je souhaite continuer à progresser dans Flutter en structurant mieux mes projets dès le départ. J’aimerais me familiariser avec d’autres architectures comme Riverpod ou Clean Architecture, qui me permettront de mieux séparer mes couches de code et d’améliorer la maintenabilité.
 
-Si un projet client ou personnel se prête bien au mobile, je n’hésiterai pas à réutiliser Flutter mais sinon, j’attendrai de voir comment l’outil évolue dans les prochaines années.
+J’ai aussi l’intention de retravailler certains anciens projets comme Flutter Miaou, pour en corriger les limites techniques. L’idée serait d’adopter une architecture plus claire, d’ajouter une vraie gestion d’état et de rendre le code plus réutilisable à long terme.
+
+Je prévois également de m’initier aux tests avec Flutter, en commençant par des tests unitaires et des widgets tests, afin de gagner en rigueur sur la qualité de mon code.
+
+Enfin, j’aimerais garder une vision plus large du développement mobile en explorant d’autres technologies comme SwiftUI ou Kotlin Compose. Cela me permettrait de prendre du recul sur Flutter, de comparer les approches et de mieux justifier mes choix techniques dans un contexte professionnel.
 
 ---
 ## Principales Réalisations Rattachées  

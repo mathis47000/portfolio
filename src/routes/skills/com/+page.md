@@ -36,20 +36,20 @@ Ce projet m’a appris à écouter, reformuler, poser les bonnes questions. Grâ
 
 ## Mon Autocritique
 
-Je me considère comme moyen en communication, avec une aisance en présentation et en vulgarisation technique.
+Je me considère plutôt à l’aise pour vulgariser des concepts techniques et adapter mon discours selon les personnes en face. Quand je parle à un client ou à un jury, j’essaie toujours de simplifier sans trahir ce que fait réellement le projet. C’est quelque chose que j’ai appris à force de présentations et d’échanges avec des profils non techniques.
 
-Je souhaite améliorer ma capacité à mener des discussions techniques avancées avec des experts du domaine notamment en faisant plus de présentations et intervenir davantage dans les réunions futures dans mes futures employés.
+En revanche, j’ai encore du mal dans certaines situations plus techniques ou stressantes, notamment pour défendre un choix devant d’autres développeurs expérimentés. Il m’arrive de savoir pourquoi une solution est bonne, mais d’avoir du mal à la justifier clairement à l’oral, surtout quand il faut répondre vite. Ce décalage entre ce que je pense et ce que j’arrive à formuler reste un point à travailler.
 
-La communication, c’est un vrai levier pour faire avancer un projet. Quand tout le monde comprend où on va, les choses avancent plus vite et dans la bonne direction.
+Je sais aussi que je peux m’éparpiller ou perdre en clarté quand je n’ai pas préparé. J’ai donc compris l’importance de structurer mes idées, de m’entraîner à synthétiser, et de ne pas hésiter à faire des schémas ou analogies quand c’est utile.
 
 
 
 ## Mon Évolution dans cette Compétence
+Pour progresser, je veux prendre davantage d’initiatives dans les échanges oraux, notamment dans mes stages ou futurs postes. M’exprimer régulièrement dans des réunions, défendre un point technique ou poser des questions, c’est un bon moyen de gagner en assurance.
 
-Je veux continuer à m’entraîner à présenter mes projets de manière claire et percutante, que ce soit face à un client, un jury ou une équipe.
+Je compte aussi continuer à présenter mes projets, que ce soit à des amis développeurs pour m’entraîner à structurer mes explications, ou dans des événements plus formels. C’est en expliquant souvent que je finirai par aller à l’essentiel.
 
-Je vais continuer à essayer de m’améliorer et prendre plus de faciliter en anglais qui n’ai pas ma langue maternelle donc l’improvisation est beaucoup moins facile.
-
+Enfin, je souhaite travailler plus spécifiquement sur la communication en anglais, qui reste un frein dans les discussions spontanées. Je pense que faire de la présentation de projet en anglais, même à petite échelle, peut m’aider à me sentir plus fluide et naturel dans cette langue.
 
 ---
 ## Principales Réalisations Rattachées

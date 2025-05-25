@@ -44,9 +44,11 @@ Le travail en équipe reste au cœur de tous les projets, et je sais aujourd’h
 
 ## Mon Évolution dans cette Compétence
 
-J’aimerais à l’avenir prendre plus de responsabilités dans la gestion d’équipe, notamment en lead dev ou en chef de projet, pour apprendre à piloter une équipe, pas seulement y participer.
+Je souhaite prendre plus de responsabilités dans la coordination de groupe, notamment en me positionnant sur des rôles de lead développeur. Ce type de poste me permettrait de structurer le travail collectif, d’anticiper les blocages et de mieux accompagner les membres de l’équipe, notamment les profils moins expérimentés.
 
-Je m’intéresse aussi à tout ce qui touche aux méthodes agiles, au Scrum, et aux bonnes pratiques pour créer une bonne dynamique d’équipe, que ce soit en présentiel ou à distance.
+Je m’intéresse également aux méthodes de gestion d’équipe à distance, car de nombreux projets aujourd’hui se déroulent en mode hybride. Comprendre les leviers de motivation, de transparence et de régulation dans un contexte distribué me semble essentiel.
+
+Enfin, j’aimerais continuer à m’impliquer dans des environnements pluridisciplinaires. Travailler avec des designers, des clients ou des experts métier me pousse à adapter mon langage, à vulgariser davantage et à construire une vision commune autour du produit.
 
 ---
 

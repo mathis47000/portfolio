@@ -26,13 +26,17 @@ L'intégration des WebSockets en Dart a présenté des défis uniques, notamment
 
 ## Mon Autocritique
 
-Je considère avoir un niveau intermédiaire sur cette compétence. J’ai suffisamment de recul pour savoir quel outil utiliser selon le contexte (WebSocket natif ou avec abstraction), mais je reste encore limité sur les aspects plus avancés comme la reconnexion automatique, la gestion fine de rooms ou la tolérance aux pertes de connexion prolongées.
+Je considère mon niveau comme intermédiaire. J’ai expérimenté WebSockets sur plusieurs plateformes (web, mobile, backend Java) et je comprends bien le principe de connexion persistante, la gestion des événements et les logiques de room.
 
-Ce que je retiens surtout, c’est qu’il ne suffit pas d’échanger des messages en temps réel : il faut aussi garantir la stabilité de la connexion, l’évolutivité et la gestion des erreurs, surtout dans des environnements mobiles où la connectivité est incertaine.
+Cependant, il me manque encore de l’expérience sur les points avancés comme la reconnexion automatique, la persistance des sessions, ou la scalabilité (par exemple avec Redis adapter côté socket.io). Je vois aussi que chaque techno a sa façon de gérer les connexions, et qu’il faut souvent adapter sa logique à la plateforme (Angular, Flutter, Java, etc.).
+
+Ce que j’ai appris, c’est que la mise en place technique est une chose, mais garantir la fiabilité et la robustesse du canal WebSocket, surtout en mobile, demande une vraie anticipation.
 
 ## Mon Évolution dans cette Compétence
 
-Je prévois de tester l'intégration des WebSockets avec  NestJS , un framework Node.js progressif, pour bénéficier d'une architecture modulaire et évolutive.
+Je souhaite intégrer WebSockets dans un projet utilisant NestJS, notamment avec la gestion des gateways pour structurer les échanges et aller plus loin sur l’organisation du code serveur. Je compte aussi étudier les modèles de résilience, comme la reconnexion automatique ou la gestion des déconnexions silencieuses, pour rendre mes prochaines implémentations plus solides.
+
+À long terme, j’aimerais aussi tester la combinaison WebSocket + WebRTC dans des projets collaboratifs ou de streaming, afin de mieux comprendre l’échange de données complexes en temps réel.
 
 ---
 ## Principales Réalisations Rattachées
